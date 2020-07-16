@@ -1,12 +1,31 @@
+<script>
+  import ProjectsButton from './ProjectsButton/ProjectsButton.svelte'
+</script>
 
 <nav>
-  <a href="/about">ABOUT</a>
-  <a href="/contact">CONTACT</a>
+  <a class='nav-button' href="/about">ABOUT</a>
+  <a class='nav-button' href="/contact">CONTACT</a>
+  <ProjectsButton />
 </nav>
 
 <style>
-  a {
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-button {
+    position: relative;
     color: black;
-    margin: 20px;
+    text-decoration: none;
+    padding: var(--medium);
+    cursor: pointer;
+    background: transparent;
+    font-size: var(--medium);
+    transition: background 0.3s ease-in-out;
+  }
+
+  .nav-button:hover {
+    background: whitesmoke;
   }
 </style>
