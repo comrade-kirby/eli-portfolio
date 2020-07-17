@@ -7,7 +7,11 @@
 <div class='project-button' bind:clientHeight={height}>
   <button on:click={() => open = !open}>
     PROJECTS
-    <i class="material-icons">keyboard_arrow_down</i>
+    {#if open}
+      <i class="material-icons">keyboard_arrow_up</i>
+    {:else}
+      <i class="material-icons">keyboard_arrow_down</i>
+    {/if}
   </button>
   {#if open}
     <div class='project-links' style='--parent-height:{height}px'>
@@ -58,7 +62,7 @@
     color: black;
     text-decoration: none;
     font-size: var(--small);
-    padding: var(--medium);
+    padding: var(--small) var(--medium);
     transition: background 0.3s ease-in-out;
   }
 
