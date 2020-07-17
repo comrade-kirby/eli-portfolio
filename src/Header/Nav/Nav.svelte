@@ -12,6 +12,7 @@
   nav {
     display: flex;
     flex-direction: row;
+    align-self: flex-start;
   }
 
   .nav-button {

@@ -12,7 +12,6 @@
         images[images.length - 1].push(item)
       }
     })
-    console.log(images)
    return images
   }
 
