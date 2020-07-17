@@ -29,7 +29,7 @@
 		--small: 1rem;
 		--medium: 1.25rem;
 		--large: 1.5rem;
-
-		padding: var(--medium);
+		--huge: 3rem;
 	}
+
 </style>
