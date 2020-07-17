@@ -1,6 +1,8 @@
 <script>
   import { onMount } from 'svelte'
 
+  import ProjectLink from './ProjectLink/ProjectLink.svelte'
+  
   let images
 
   const groupImages = (data) => {
@@ -29,9 +31,7 @@
 <div class='projects'>
   {#if images}
     {#each images as image}
-      <div class='project'>
-        <img src={image[0].download_url} />
-      </div>
+      <ProjectLink image={image} />
     {/each}
   {/if}
 </div>
@@ -44,23 +44,6 @@
     margin-bottom: calc(2 * var(--huge));
     margin-left: calc(150px + (2 * var(--medium)));
     grid-gap: var(--huge);
-  }
-
-  .project {
-    width: 100%;
-    cursor: pointer;
-  }
-
-  .project::before {
-    content: "";
-    display: inline-block;
-    padding-bottom: 100%;
-  }
-
-  img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
   }
 
   @media screen and (max-width: 1400px) {
