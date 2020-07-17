@@ -56,7 +56,14 @@
   @media screen and (max-width: 1000px) {
     .projects {
       grid-template-columns: repeat(2, 1fr);
+      grid-gap: var(--large);
       margin: var(--medium);
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .projects {
+      grid-gap: var(--medium);
     }
   }
 </style>
