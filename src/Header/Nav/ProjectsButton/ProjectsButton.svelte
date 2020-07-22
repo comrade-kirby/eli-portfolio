@@ -1,6 +1,7 @@
 <script>
+  export let projects
+
   let height
-  let projects = ['project 1', 'project 2', 'project 3']
   let open = false
 </script>
 
@@ -17,9 +18,9 @@
     <div class='project-links' style='--parent-height:{height}px'>
       {#each projects as project}
         <a 
-          href='/projects/{project}'
+          href='/projects/{project.key}'
           on:click={() => open = false}>
-          {project}
+          {project.name}
         </a>
       {/each}
     </div>
@@ -29,6 +30,7 @@
 <style>
  button {
     display: flex;
+    align-items: center;
     border: none;
     background: transparent;
     font-size: var(--medium);
@@ -55,18 +57,31 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
   }
 
   a {
     color: black;
+    background-color: hsla(0, 0%, 100%, 90%);
     text-decoration: none;
     font-size: var(--small);
-    padding: var(--small) var(--medium);
+    padding: var(--tiny) var(--medium);
     transition: background 0.3s ease-in-out;
   }
 
   a:hover {
     background: whitesmoke;
+  }
+
+  @media screen and (max-width: 600px) {
+    button {
+      font-size: var(--small);
+      padding: var(--tiny);
+    }
+
+    a {
+      font-size: var(--tiny);
+      padding: var(--tiny) var(--small);
+    }
   }
 </style>

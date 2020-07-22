@@ -1,39 +1,13 @@
 <script>
-  import { onMount } from 'svelte'
-
   import ProjectLink from './ProjectLink/ProjectLink.svelte'
   
-  let images
-
-  const groupImages = (data) => {
-    let images = []
-    data.forEach((item, i) => {
-      if (i % 2 == 0 ) {
-        images.push([item])
-      } else {
-        images[images.length - 1].push(item)
-      }
-    })
-   return images
-  }
-
-  const getImages = () => {
-    fetch('https://picsum.photos/v2/list')
-    .then(response => response.json())
-    .then(data => images = groupImages(data))
-  } 
-
-  onMount(() => {
-    getImages()
-  })
+  export let projects
 </script>
 
 <div class='projects'>
-  {#if images}
-    {#each images as image}
-      <ProjectLink image={image} />
-    {/each}
-  {/if}
+  {#each projects as project}
+    <ProjectLink project={project} />
+  {/each}
 </div>
 
 <style>

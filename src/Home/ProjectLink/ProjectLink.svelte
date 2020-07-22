@@ -1,5 +1,5 @@
 <script>
-  export let image
+  export let project
   
   let hover = false
 </script>
@@ -8,8 +8,8 @@
   class='project'
   on:mouseenter={ () => hover = true }
   on:mouseleave={ () => hover = false }>
-  <img class:hover src={image[0].download_url} />
-  <img class='hover-img' src={image[1].download_url} />
+  <img class='primary' class:hover src={project.home_primary} />
+  <img class='secondary' class:hover src={project.home_secondary} />
 </div>
 
 <style>
@@ -31,13 +31,19 @@
     object-fit: cover;
     z-index: 1;
     position: absolute;
+    transition: opacity 0.2s ease-out;
   }
 
-  .hover-img {
+  .secondary {
     z-index: 0;
+    opacity: 0;
   }
 
-  .hover {
+  .primary.hover {
     opacity: 0;
+  }
+
+  .secondary.hover {
+    opacity: 1;
   }
 </style>
