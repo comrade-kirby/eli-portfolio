@@ -1,0 +1,92 @@
+{
+  "16_on_center": {
+    "key": "16_on_center",
+    "name": "16 ON CENTER",
+    "home_primary": "/home_images/16_on_center/16onc2-01.png",
+    "home_secondary": "/home_images/16_on_center/16onc.png"
+  },
+  "2020_calendar": {
+    "key": "2020_calendar",
+    "name": "2020 CALENDAR",
+    "home_primary": "/home_images/2020_calendar/2020-cal-gif.gif",
+    "home_secondary": "/home_images/2020_calendar/2020.png"
+  },
+  "bleach_day": {
+    "key": "bleach_day",
+    "name": "BLEACH DAY",
+    "home_primary": "/home_images/bleach_day/bleach_day.png",
+    "home_secondary": "/home_images/bleach_day/bleach_day_stick.png"
+  },
+  "cresco": {
+    "key": "cresco",
+    "name": "CRESCO",
+    "home_primary": "/home_images/cresco/cresco_copy.png",
+    "home_secondary": "/home_images/cresco/cresco.png"
+  },
+  "eg_pottery": {
+    "key": "eg_pottery",
+    "name": "EG POTTERY",
+    "home_primary": "/home_images/eg_pottery/finals_logo_finals.png",
+    "home_secondary": "/home_images/eg_pottery/eg_pottery.png"
+  },
+  "hope_all_is_well_presents": {
+    "key": "hope_all_is_well_presents",
+    "name": "HOPE ALL IS WELL PRESENTS...",
+    "home_primary": "/home_images/hope_all_is_well_presents/hope_all_is_well.png",
+    "home_secondary": "/home_images/hope_all_is_well_presents/hope_all.png"
+  },
+  "interdigital_2019": {
+    "key": "interdigital_2019",
+    "name": "INTERDIGITAL 2019",
+    "home_primary": "/home_images/interdigital_2019/interdigital_2019.png",
+    "home_secondary": "/home_images/interdigital_2019/interdigital_2019_sticker.png"
+  },
+  "interdigital_2018": {
+    "key": "interdigital_2018",
+    "name": "INTERDIGITAL 2018",
+    "home_primary": "/home_images/interdigital_2018/id2018.png",
+    "home_secondary": "home_images/interdigital_2018/interdigital_2018_sticker.png"
+  },
+  "j_bengoy": {
+    "key": "j_bengoy",
+    "name": "J BENGOY",
+    "home_primary": "/home_images/j_bengoy/j_bengoy.png",
+    "home_secondary": "/home_images/j_bengoy/j_b_stick.png"
+  },
+  "max_oppenheimer": {
+    "key": "max_oppenheimer",
+    "name": "MAX OPPENHEIMER",
+    "home_primary": "/home_images/max_oppenheimer/max_o.png",
+    "home_secondary": "/home_images/max_oppenheimer/max_oppenheimer.png"
+  },
+  "misc": {
+    "key": "misc",
+    "name": "MISCELLANEOUS",
+    "home_primary": "/home_images/misc/misc_splash.png",
+    "home_secondary": "/home_images/misc/misc.png"
+  },
+  "no_9_jewelry": {
+    "key": "no_9_jewelry",
+    "name": "NO 9 JEWELRY",
+    "home_primary": "/home_images/no_9_jewelry/NO9.png",
+    "home_secondary": "/home_images/no_9_jewelry/TEST.png"
+  },
+  "pbr_jim_beam": {
+    "key": "pbr_jim_beam",
+    "name": "PBR & JIM BEAM",
+    "home_primary": "/home_images/pbr_jim_beam/pbr.png",
+    "home_secondary": "/home_images/pbr_jim_beam/pbrjb.png"
+  },
+  "psyche": {
+    "key": "psyche",
+    "name": "PSYCHE",
+    "home_primary": "/home_images/psyche/psyche_logo.png",
+    "home_secondary": "/home_images/psyche/psyche.png"
+  },
+  "thalia_hall": {
+    "key": "thalia_hall",
+    "name": "THALIA HALL",
+    "home_primary": "/home_images/thalia_hall/thalia.png",
+    "home_secondary": "/home_images/thalia_hall/test.png"
+  }
+}
