@@ -1,4 +1,5 @@
 <script>
+  import { onMount } from 'svelte'
 	import page from 'page'
 
 	import Header from './Header/Header.svelte'
@@ -7,19 +8,32 @@
 	import Contact from './Contact/Contact.svelte'
 	import Project from './Project/Project.svelte'
 
+	let projects
 	let component = Home
 
+	const getProjects = async () => {
+    const response = await fetch('projects.json')
+    const json = await response.json()
+    return Object.keys(json).map(key => json[key])
+	} 
+	
 	page('', () => component = Home)
 	page('/about', () => component = About)
 	page('/contact', () => component = Contact)
 	page('/projects/:project', () => component = Project)
 	page('*', '')
 	page.start()
+
+	onMount(async () => {
+		projects = await getProjects()
+  })
 </script>
 
 <main>
-	<Header />
-	<svelte:component this={component}/>
+	{#if projects}
+		<Header projects={projects} />
+		<svelte:component this={component} projects={projects} />
+	{/if}
 </main>
 
 <style>

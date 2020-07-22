@@ -1,4 +1,6 @@
 <script>
+  export let projects
+
   import Logo from './Logo/Logo.svelte'
   import Nav from './Nav/Nav.svelte'
 
@@ -6,7 +8,7 @@
 
 <header>
   <Logo />
-  <Nav />
+  <Nav projects={projects} />
 </header>
 
 <style>

@@ -1,17 +1,20 @@
 <script>
+  export let projects
+
   import ProjectsButton from './ProjectsButton/ProjectsButton.svelte'
 </script>
 
 <nav>
   <a class='nav-button' href="/about">ABOUT</a>
   <a class='nav-button' href="/contact">CONTACT</a>
-  <ProjectsButton />
+  <ProjectsButton projects={projects} />
 </nav>
 
 <style>
   nav {
     display: flex;
     flex-direction: row;
+    align-items: center;
     align-self: flex-start;
   }
 
@@ -28,5 +31,12 @@
 
   .nav-button:hover {
     background: whitesmoke;
+  }
+
+  @media screen and (max-width: 600px) {
+    .nav-button {
+      font-size: var(--small);
+      padding: var(--tiny);
+    }
   }
 </style>
