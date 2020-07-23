@@ -75,7 +75,7 @@
 
   @media screen and (max-width: 600px) {
     button {
-      font-size: var(--small);
+      font-size: var(--tiny);
       padding: var(--tiny);
     }
 

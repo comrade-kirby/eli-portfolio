@@ -37,13 +37,11 @@
 </main>
 
 <style>
-	
 	main {
-		--tiny: 0.5rem;
+		--tiny: 0.75rem;
 		--small: 1rem;
 		--medium: 1.25rem;
 		--large: 1.5rem;
 		--huge: 3rem;
 	}
-
 </style>
