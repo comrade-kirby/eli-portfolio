@@ -16,6 +16,7 @@
     flex-direction: row;
     align-items: center;
     align-self: flex-start;
+    margin-right: var(--huge);
   }
 
   .nav-button {

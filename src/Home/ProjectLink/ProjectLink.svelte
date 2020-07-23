@@ -4,13 +4,14 @@
   let hover = false
 </script>
 
-<div 
+<a 
   class='project'
+  href='/projects/{project.key}'
   on:mouseenter={ () => hover = true }
   on:mouseleave={ () => hover = false }>
   <img class='primary' class:hover src={project.home_primary} />
   <img class='secondary' class:hover src={project.home_secondary} />
-</div>
+</a>
 
 <style>
  .project {

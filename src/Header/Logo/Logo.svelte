@@ -1,8 +1,8 @@
-<div>
-</div>
+<a href='/'>
+</a>
 
 <style>
-  div {
+  a {
     height: 150px;
     width: 150px;
     background-color: red;
