@@ -1,13 +1,13 @@
 <script>
   export let projects
 
-  import ProjectsButton from './ProjectsButton/ProjectsButton.svelte'
+  import ProjectsList from './ProjectsList/ProjectsList.svelte'
 </script>
 
 <nav>
   <a class='nav-button' href="/about">ABOUT</a>
   <a class='nav-button' href="/contact">CONTACT</a>
-  <ProjectsButton projects={projects} />
+  <ProjectsList projects={projects} />
 </nav>
 
 <style>

@@ -1,12 +1,12 @@
 <script>
-  import ProjectLink from './ProjectLink/ProjectLink.svelte'
+  import ProjectIcon from './ProjectIcon/ProjectIcon.svelte'
   
   export let projects
 </script>
 
 <div class='projects'>
   {#each projects as project}
-    <ProjectLink project={project} />
+    <ProjectIcon project={project} />
   {/each}
 </div>
 
