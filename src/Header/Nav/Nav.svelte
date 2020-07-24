@@ -21,12 +21,13 @@
 
   .nav-button {
     position: relative;
-    color: black;
+    color: var(--black);
     text-decoration: none;
     padding: var(--medium);
     cursor: pointer;
     background: transparent;
     font-size: var(--medium);
+    font-weight: 600;
     transition: background 0.3s ease-in-out;
   }
 

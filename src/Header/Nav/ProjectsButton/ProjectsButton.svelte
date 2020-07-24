@@ -32,8 +32,10 @@
     display: flex;
     align-items: center;
     border: none;
+    color: var(--black);
     background: transparent;
     font-size: var(--medium);
+    font-weight: 600;
     padding: var(--medium);
     cursor: pointer;
   }
@@ -61,8 +63,8 @@
   }
 
   a {
-    color: black;
-    background-color: hsla(0, 0%, 100%, 90%);
+    color: var(--black);
+    background-color: var(--translucent-white);
     text-decoration: none;
     font-size: var(--small);
     padding: var(--tiny) var(--medium);
@@ -70,7 +72,7 @@
   }
 
   a:hover {
-    background: whitesmoke;
+    background: var(--translucent-grey);
   }
 
   @media screen and (max-width: 600px) {

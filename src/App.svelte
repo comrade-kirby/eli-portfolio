@@ -43,5 +43,9 @@
 		--medium: 1.25rem;
 		--large: 1.5rem;
 		--huge: 3rem;
+
+		--translucent-white: hsla(0, 0%, 100%, 90%);
+		--translucent-grey: hsla(0, 0%, 96%, 90%);
+		--black: hsla(0, 0%, 10%, 100%);
 	}
 </style>
