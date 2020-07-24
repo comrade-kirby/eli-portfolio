@@ -1,13 +1,13 @@
 <script>
   export let projects
 
-  import ProjectsList from './ProjectsList/ProjectsList.svelte'
+  import NavProjects from './NavProjects/NavProjects.svelte'
 </script>
 
 <nav>
   <a class='nav-button' href="/about">ABOUT</a>
   <a class='nav-button' href="/contact">CONTACT</a>
-  <ProjectsList projects={projects} />
+  <NavProjects projects={projects} />
 </nav>
 
 <style>
@@ -32,7 +32,7 @@
   }
 
   .nav-button:hover {
-    background: whitesmoke;
+    background: var(--translucent-grey);
   }
 
   @media screen and (max-width: 600px) {
