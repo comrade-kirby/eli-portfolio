@@ -10,7 +10,11 @@
   const toggleOpen = () => open = !open
 </script>
 
-<div class='projects-dropdown' bind:clientHeight={height}>
+<div 
+  class='projects-dropdown' 
+  bind:clientHeight={height}
+  on:mouseenter={toggleOpen}
+  on:mouseleave={toggleOpen}>
   <DropdownButton 
     open={open}
     toggleOpen={toggleOpen} />
