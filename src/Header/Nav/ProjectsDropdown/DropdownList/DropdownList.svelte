@@ -1,14 +1,14 @@
 <script>
   export let projects
   export let buttonHeight
-  export let closeList
+  export let toggleOpen
 </script>
 
 <ul class='project-links' style='--parent-height:{buttonHeight}px'>
   {#each projects as project}
     <a 
       href='/projects/{project.key}'
-      on:click={closeList}>
+      on:click={toggleOpen}>
       {project.name}
     </a>
   {/each}

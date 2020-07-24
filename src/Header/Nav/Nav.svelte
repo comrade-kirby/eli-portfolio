@@ -1,13 +1,13 @@
 <script>
   export let projects
 
-  import NavProjects from './NavProjects/NavProjects.svelte'
+  import ProjectsDropdown from './ProjectsDropdown/ProjectsDropdown.svelte'
 </script>
 
 <nav>
   <a class='nav-button' href="/about">ABOUT</a>
   <a class='nav-button' href="/contact">CONTACT</a>
-  <NavProjects projects={projects} />
+  <ProjectsDropdown projects={projects} />
 </nav>
 
 <style>
