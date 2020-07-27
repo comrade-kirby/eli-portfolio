@@ -1,11 +1,11 @@
 <script>
   import ProjectIcon from './ProjectIcon/ProjectIcon.svelte'
   
-  export let projects
+  import { projects } from '../stores.js'
 </script>
 
 <div class='projects'>
-  {#each projects as project}
+  {#each $projects as project}
     <ProjectIcon project={project} />
   {/each}
 </div>

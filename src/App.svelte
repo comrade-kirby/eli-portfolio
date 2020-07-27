@@ -7,32 +7,38 @@
 	import About from './About/About.svelte'
 	import Contact from './Contact/Contact.svelte'
 	import Project from './Project/Project.svelte'
+	import { projects } from './stores.js'
 
-	let projects
+	let projectKey
 	let component = Home
 
 	const getProjects = async () => {
-    const response = await fetch('projects.json')
-    const json = await response.json()
-    return Object.keys(json).map(key => json[key])
+		const response = await fetch('/projects.json')
+		const json = await response.json()
+		return Object.keys(json).map(key => Object.assign(json[key], {key}))
 	} 
-	
+
 	page('', () => component = Home)
 	page('/about', () => component = About)
 	page('/contact', () => component = Contact)
-	page('/projects/:project', () => component = Project)
+	page('/projects/:project', (ctx) => {
+	component = Project
+	projectKey = ctx.params.project
+	})
 	page('*', '')
 	page.start()
 
-	onMount(async () => {
-		projects = await getProjects()
+	onMount( async () => {
+		projects.set(await getProjects())
   })
 </script>
 
 <main>
 	{#if projects}
-		<Header projects={projects} />
-		<svelte:component this={component} projects={projects} />
+		<Header />
+		<svelte:component 
+			this={component} 
+			projectKey={projectKey} />
 	{/if}
 </main>
 
