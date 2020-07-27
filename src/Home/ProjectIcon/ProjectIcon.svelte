@@ -30,7 +30,6 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
-    z-index: 1;
     position: absolute;
     transition: opacity 0.2s ease-out;
   }

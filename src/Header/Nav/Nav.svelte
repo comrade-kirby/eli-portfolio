@@ -29,6 +29,7 @@
     font-size: var(--medium);
     font-weight: 600;
     transition: background 0.3s ease-in-out;
+    z-index: 1;
   }
 
   .nav-button:hover {

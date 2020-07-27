@@ -31,6 +31,7 @@
     font-size: var(--small);
     padding: var(--tiny) var(--medium);
     transition: background 0.3s ease-in-out;
+    z-index: 2;
   }
 
   a:hover {
