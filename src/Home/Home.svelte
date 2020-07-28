@@ -4,39 +4,27 @@
   import { projects } from '../stores.js'
 </script>
 
-<div class='projects'>
+<section class='home'>
   {#each $projects as project}
     <ProjectIcon project={project} />
   {/each}
-</div>
+</section>
 
 <style>
-  .projects {
+  .home {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-right: calc(2 * var(--huge));
-    margin-bottom: calc(2 * var(--huge));
-    margin-left: calc(150px + (2 * var(--medium)));
     grid-gap: var(--huge);
   }
 
-  @media screen and (max-width: 1400px) {
-    .projects {
-      margin-right: var(--huge);
-      margin-bottom: var(--huge);
-      grid-gap: var(--large);
-    }
-  }
-
   @media screen and (max-width: 1000px) {
-    .projects {
+    .home {
       grid-template-columns: repeat(2, 1fr);
-      margin: var(--medium);
     }
   }
   
   @media screen and (max-width: 600px) {
-    .projects {
+    .home {
       grid-gap: var(--medium);
     }
   }

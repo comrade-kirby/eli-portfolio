@@ -1,13 +1,13 @@
 {
   "16_on_center": {
     "name": "16 ON CENTER",
-    "home_primary": "/project_content/16_on_center/home/16onc2-01.png",
-    "home_secondary": "/project_content/16_on_center/home/16onc.png",
-    "project_copy": [
+    "homePrimary": "/project_content/16_on_center/home/16onc2-01.png",
+    "homeSecondary": "/project_content/16_on_center/home/16onc.png",
+    "projectCopy": [
       "Chicago’s 16 on Center is a hospitality group operating a wide range of restaurants and music venues, from the divey Empty Bottle to Michelin starred Dusek’s. As a graphic designer for the company, I worked within a variety of distinct identities to promote the group’s many events through primarily digital work.", 
       "Pilsen’s Punch House is the basement punch bar situated underneath Dusek’s and music venue Thalia Hall. After being approached by the bar’s music programming manager to create a new social media template, I set out to create a set that reflected Punch House’s modest identity while embracing the wide range of programming that the DJs bring. "
     ],
-    "project_media": [
+    "projectMediae": [
       "/project_content/16_on_center/project/IG_SLA-We're-Hiring.gif",
       "/project_content/16_on_center/project/IGS_Bite_Weekly_Specials.mp4",
       "/project_content/16_on_center/project/IGS_Bite-Weekly-Specials.gif",
@@ -18,100 +18,100 @@
   },
   "2020_calendar": {
     "name": "2020 CALENDAR",
-    "home_primary": "/project_content/2020_calendar/home/2020-cal-gif.gif",
-    "home_secondary": "/project_content/2020_calendar/home/2020.png",
-    "project_copy": [],
-    "project_media": []
+    "homePrimary": "/project_content/2020_calendar/home/2020-cal-gif.gif",
+    "homeSecondary": "/project_content/2020_calendar/home/2020.png",
+    "projectCopy": [],
+    "projectMediae": []
   },
   "bleach_day": {
     "name": "BLEACH DAY",
-    "home_primary": "/project_content/bleach_day/home/bleach_day.png",
-    "home_secondary": "/project_content/bleach_day/home/bleach_day_stick.png",
-    "project_copy": [],
-    "project_media": []
+    "homePrimary": "/project_content/bleach_day/home/bleach_day.png",
+    "homeSecondary": "/project_content/bleach_day/home/bleach_day_stick.png",
+    "projectCopy": [],
+    "projectMediae": []
   },
   "cresco": {
     "name": "CRESCO",
-    "home_primary": "/project_content/cresco/home/cresco_copy.png",
-    "home_secondary": "/project_content/cresco/home/cresco.png",
-    "project_copy": [],
-    "project_media": []
+    "homePrimary": "/project_content/cresco/home/cresco_copy.png",
+    "homeSecondary": "/project_content/cresco/home/cresco.png",
+    "projectCopy": [],
+    "projectMediae": []
   },
   "eg_pottery": {
     "name": "EG POTTERY",
-    "home_primary": "/project_content/eg_pottery/home/finals_logo_finals.png",
-    "home_secondary": "/project_content/eg_pottery/home/eg_pottery.png",
-    "project_copy": [],
-    "project_media": []
+    "homePrimary": "/project_content/eg_pottery/home/finals_logo_finals.png",
+    "homeSecondary": "/project_content/eg_pottery/home/eg_pottery.png",
+    "projectCopy": [],
+    "projectMediae": []
   },
   "hope_all_is_well_presents": {
     "name": "HOPE ALL IS WELL PRESENTS...",
-    "home_primary": "/project_content/hope_all_is_well_presents/home/hope_all_is_well.png",
-    "home_secondary": "/project_content/hope_all_is_well_presents/home/hope_all.png",
-    "project_copy": [],
-    "project_media": []
+    "homePrimary": "/project_content/hope_all_is_well_presents/home/hope_all_is_well.png",
+    "homeSecondary": "/project_content/hope_all_is_well_presents/home/hope_all.png",
+    "projectCopy": [],
+    "projectMediae": []
   },
   "interdigital_2019": {
     "name": "INTERDIGITAL 2019",
-    "home_primary": "/project_content/interdigital_2019/home/interdigital_2019.png",
-    "home_secondary": "/project_content/interdigital_2019/home/interdigital_2019_sticker.png",
-    "project_copy": [],
-    "project_media": []
+    "homePrimary": "/project_content/interdigital_2019/home/interdigital_2019.png",
+    "homeSecondary": "/project_content/interdigital_2019/home/interdigital_2019_sticker.png",
+    "projectCopy": [],
+    "projectMediae": []
   },
   "interdigital_2018": {
     "name": "INTERDIGITAL 2018",
-    "home_primary": "/project_content/interdigital_2018/home/id2018.png",
-    "home_secondary": "project_content/interdigital_2018/home/interdigital_2018_sticker.png",
-    "project_copy": [],
-    "project_media": []
+    "homePrimary": "/project_content/interdigital_2018/home/id2018.png",
+    "homeSecondary": "project_content/interdigital_2018/home/interdigital_2018_sticker.png",
+    "projectCopy": [],
+    "projectMediae": []
   },
   "j_bengoy": {
     "name": "J BENGOY",
-    "home_primary": "/project_content/j_bengoy/home/j_bengoy.png",
-    "home_secondary": "/project_content/j_bengoy/home/j_b_stick.png",
-    "project_copy": [],
-    "project_media": []
+    "homePrimary": "/project_content/j_bengoy/home/j_bengoy.png",
+    "homeSecondary": "/project_content/j_bengoy/home/j_b_stick.png",
+    "projectCopy": [],
+    "projectMediae": []
   },
   "max_oppenheimer": {
     "name": "MAX OPPENHEIMER",
-    "home_primary": "/project_content/max_oppenheimer/home/max_o.png",
-    "home_secondary": "/project_content/max_oppenheimer/home/max_oppenheimer.png",
-    "project_copy": [],
-    "project_media": []
+    "homePrimary": "/project_content/max_oppenheimer/home/max_o.png",
+    "homeSecondary": "/project_content/max_oppenheimer/home/max_oppenheimer.png",
+    "projectCopy": [],
+    "projectMediae": []
   },
   "misc": {
     "name": "MISCELLANEOUS",
-    "home_primary": "/project_content/misc/home/misc_splash.png",
-    "home_secondary": "/project_content/misc/home/misc.png",
-    "project_copy": [],
-    "project_media": []
+    "homePrimary": "/project_content/misc/home/misc_splash.png",
+    "homeSecondary": "/project_content/misc/home/misc.png",
+    "projectCopy": [],
+    "projectMediae": []
   },
   "groovy_tuna": {
     "name": "GROOVY TUNA",
-    "home_primary": "/project_content/groovy_tuna/home/GroovyTunaSplash.png",
-    "home_secondary": "/project_content/groovy_tuna/home/GroovyTunaSticker.png",
-    "project_copy": [],
-    "project_media": []
+    "homePrimary": "/project_content/groovy_tuna/home/GroovyTunaSplash.png",
+    "homeSecondary": "/project_content/groovy_tuna/home/GroovyTunaSticker.png",
+    "projectCopy": [],
+    "projectMediae": []
   },
   "pbr_jim_beam": {
     "name": "PBR & JIM BEAM",
-    "home_primary": "/project_content/pbr_jim_beam/home/pbr.png",
-    "home_secondary": "/project_content/pbr_jim_beam/home/pbrjb.png",
-    "project_copy": [],
-    "project_media": []
+    "homePrimary": "/project_content/pbr_jim_beam/home/pbr.png",
+    "homeSecondary": "/project_content/pbr_jim_beam/home/pbrjb.png",
+    "projectCopy": [],
+    "projectMediae": []
   },
   "psyche": {
     "name": "PSYCHE",
-    "home_primary": "/project_content/psyche/home/psyche_logo.png",
-    "home_secondary": "/project_content/psyche/home/psyche.png",
-    "project_copy": [],
-    "project_media": []
+    "homePrimary": "/project_content/psyche/home/psyche_logo.png",
+    "homeSecondary": "/project_content/psyche/home/psyche.png",
+    "projectCopy": [],
+    "projectMediae": []
   },
   "thalia_hall": {
     "name": "THALIA HALL",
-    "home_primary": "/project_content/thalia_hall/home/thalia.png",
-    "home_secondary": "/project_content/thalia_hall/home/test.png",
-    "project_copy": [],
-    "project_media": []
+    "homePrimary": "/project_content/thalia_hall/home/thalia.png",
+    "homeSecondary": "/project_content/thalia_hall/home/test.png",
+    "projectCopy": [],
+    "projectMediae": []
   }
 }

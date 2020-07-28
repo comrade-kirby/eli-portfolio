@@ -33,17 +33,18 @@
   })
 </script>
 
-<main>
-	{#if projects}
-		<Header />
+{#if projects}
+	<Header />
+	<main>
 		<svelte:component 
 			this={component} 
 			projectKey={projectKey} />
-	{/if}
-</main>
+	</main>
+{/if}
+<!-- </main> -->
 
 <style>
-	main {
+	:global(body) {
 		--tiny: 0.75rem;
 		--small: 1rem;
 		--medium: 1.25rem;
@@ -53,5 +54,24 @@
 		--translucent-white: hsla(0, 0%, 100%, 90%);
 		--translucent-grey: hsla(0, 0%, 96%, 90%);
 		--black: hsla(0, 0%, 10%, 100%);
+	}
+
+	main {
+		margin-right: calc(2 * var(--huge));
+    margin-bottom: calc(2 * var(--huge));
+    margin-left: calc(150px + (2 * var(--medium)));
+	}
+
+	@media screen and (max-width: 1400px) {
+		main {
+			margin-right: var(--huge);
+			margin-bottom: var(--huge);
+		}
+	}
+
+	@media screen and (max-width: 1000px) {
+		main {
+			margin: var(--medium);
+		}
 	}
 </style>

@@ -9,8 +9,8 @@
   href='/projects/{project.key}'
   on:mouseenter={ () => hover = true }
   on:mouseleave={ () => hover = false }>
-  <img class='primary' class:hover src={project.home_primary} />
-  <img class='secondary' class:hover src={project.home_secondary} />
+  <img class='primary' class:hover src={project.homePrimary} />
+  <img class='secondary' class:hover src={project.homeSecondary} />
 </a>
 
 <style>
