@@ -62,6 +62,10 @@
     margin-left: calc(150px + (2 * var(--medium)));
 	}
 
+	:global(button) {
+		outline: none;
+	}
+
 	@media screen and (max-width: 1400px) {
 		main {
 			margin-right: var(--huge);
