@@ -1,29 +1,31 @@
 <script>
   import anime from 'animejs/lib/anime.es.js'
 
-  import Media from './Media/Media.svelte'
+  import CarouselContent from './CarouselContent/CarouselContent.svelte'
+  import CarouselButton from './CarouselButton/CarouselButton.svelte'
 
   export let mediae
 
   let currentMedia, height
-  let linkedMediae = []
   
   const linkMediae = (mediae) => {
-    mediae.forEach((media, i) => {
-      linkedMediae.push(media)
+    if (mediae.length) {
 
-      if (linkedMediae[i - 1]) { 
-        linkedMediae[i].previous = linkedMediae[i - 1] 
-        linkedMediae[i - 1].next = linkedMediae[i]
-      }
-    })
+      mediae.forEach((media, i) => {
 
-    const firstNode = linkedMediae[0]
-    const lastNode = linkedMediae[linkedMediae.length - 1]
-    firstNode.previous = lastNode
-    lastNode.next = firstNode
+      if (mediae[i - 1]) { 
+        mediae[i].previous = mediae[i - 1] 
+        mediae[i - 1].next = mediae[i]
+        }
+      })
 
-    currentMedia = firstNode
+      const firstNode = mediae[0]
+      const lastNode = mediae[mediae.length - 1]
+      firstNode.previous = lastNode
+      lastNode.next = firstNode
+
+      currentMedia = firstNode
+    }
   }
 
   const slide = (direction) => {
@@ -52,47 +54,22 @@
   $: linkMediae(mediae)
 </script>
 
-<div class='carousel'>
-  <button 
-    class='button'
-    on:click={() => slide('previous')}>
-    <i class="material-icons">keyboard_arrow_left</i>
-  </button>  
-  <div class='mediae-container' bind:clientHeight={height}>
-    <Media media={currentMedia.previous} />
-    <Media media={currentMedia} />
-    <Media media={currentMedia.next} />
+{#if mediae.length}
+  <div class='carousel' bind:clientHeight={height}>
+    <CarouselButton 
+      onclick={slide}
+      direction='previous' />  
+    <CarouselContent currentMedia={currentMedia} />
+    <CarouselButton 
+      onclick={slide}
+      direction='next' />  
   </div>
-  <button class='button'
-    on:click={() => slide('next')}>
-    <i class="material-icons">keyboard_arrow_right</i>
-  </button>
-</div>
+{/if}
 
 <style>
   .carousel {
     position: relative;
     display: flex;
     flex-direction: row;
-  }
-
-  .mediae-container {
-    display: flex;
-    flex-direction: row;
-    height: 50vh;
-    width: 50vh;
-    justify-content: center;
-    overflow: hidden;
-  }
-
-  .button {
-    min-height: 100%;
-    background: white;
-    border: none;
-    cursor: pointer;
-  }
-
-  i { 
-    font-size: var(--huge);
   }
 </style>
