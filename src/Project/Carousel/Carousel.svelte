@@ -1,4 +1,6 @@
 <script>
+  import anime from 'animejs/lib/anime.es.js'
+
   export let mediae
 
   let currentMedia
@@ -26,11 +28,35 @@
     currentMedia = firstNode
   }
 
+  const slide = (direction) => {
+    const translate = direction == 'previous' ? 400 : -400
+    const nextMedia = direction == 'previous' 
+      ? currentMedia.previous 
+      : currentMedia.next
+
+    anime({
+      targets: 'img',
+      translateX: translate,
+      duration: 300,
+      easing: 'easeInOutCubic',
+      complete: () => {
+        anime({
+          targets: 'img',
+          translateX: 0,
+          duration: 0
+        })
+        currentMedia = nextMedia
+      }
+    });
+  }
+
   $: linkMediae(mediae)
 </script>
 
 <div class='carousel'>
-  <button class='button left-button'>
+  <button 
+    class='button previous'
+    on:click={() => slide('previous')}>
     <i class="material-icons">keyboard_arrow_left</i>
   </button>  
   <div class='media-container'>
@@ -38,9 +64,10 @@
     <img src={currentMedia.url} />
     <img src={currentMedia.next.url} />
   </div>
-  <button class='button right-button'>
+  <button class='button next'
+    on:click={() => slide('next')}>
     <i class="material-icons">keyboard_arrow_right</i>
-  </button>  
+  </button>
 </div>
 
 <style>
@@ -63,13 +90,15 @@
     height: 100%;
     background: transparent;
     border: none;
+    z-index: 1;
+    cursor: pointer;
   }
 
-  .left-button {
+  .previous {
     left: 0;
   }
 
-  .right-button {
+  .next {
     right: 0;
   }
 
