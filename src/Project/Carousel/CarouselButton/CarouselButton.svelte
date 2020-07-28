@@ -1,6 +1,5 @@
 <script>
-
-  export let onclick
+  export let slide
   export let direction
   const icon = direction == 'previous' 
     ? 'keyboard_arrow_left'
@@ -9,7 +8,7 @@
 
 <button 
   class='button'
-  on:click={() => onclick(direction)}>
+  on:click={() => slide(direction)}>
   <i class="material-icons">{icon}</i>
 </button>
 
@@ -22,6 +21,7 @@
   }
 
   i { 
-    font-size: var(--huge);
+    font-size: var(--gargantuan);
+    margin: calc(-1 * var(--small));
   }
 </style>

@@ -41,7 +41,6 @@
 			projectKey={projectKey} />
 	</main>
 {/if}
-<!-- </main> -->
 
 <style>
 	:global(body) {
@@ -50,10 +49,12 @@
 		--medium: 1.25rem;
 		--large: 1.5rem;
 		--huge: 3rem;
+		--gargantuan: 5rem;
 
 		--translucent-white: hsla(0, 0%, 100%, 90%);
 		--translucent-grey: hsla(0, 0%, 96%, 90%);
 		--black: hsla(0, 0%, 10%, 100%);
+		--grey: hsla(0, 0%, 50%, 100%);
 	}
 
 	main {

@@ -3,6 +3,7 @@
 
   import CarouselContent from './CarouselContent/CarouselContent.svelte'
   import CarouselButton from './CarouselButton/CarouselButton.svelte'
+  import ProgressIndicator from './ProgressIndicator/ProgressIndicator.svelte'
 
   export let mediae
 
@@ -10,17 +11,20 @@
   
   const linkMediae = (mediae) => {
     if (mediae.length) {
-
+      
       mediae.forEach((media, i) => {
-
-      if (mediae[i - 1]) { 
-        mediae[i].previous = mediae[i - 1] 
-        mediae[i - 1].next = mediae[i]
+        
+        media.index = i
+        
+        if (mediae[i - 1]) { 
+          mediae[i].previous = mediae[i - 1] 
+          mediae[i - 1].next = mediae[i]
         }
       })
 
       const firstNode = mediae[0]
       const lastNode = mediae[mediae.length - 1]
+      
       firstNode.previous = lastNode
       lastNode.next = firstNode
 
@@ -51,22 +55,36 @@
     });
   }
 
+  const jumpTo = (index) => currentMedia = mediae[index]
+
   $: linkMediae(mediae)
 </script>
 
+
 {#if mediae.length}
-  <div class='carousel' bind:clientHeight={height}>
-    <CarouselButton 
-      onclick={slide}
-      direction='previous' />  
-    <CarouselContent currentMedia={currentMedia} />
-    <CarouselButton 
-      onclick={slide}
-      direction='next' />  
+  <div class='carousel-container'>
+    <div class='carousel' bind:clientHeight={height}>
+      <CarouselButton 
+        slide={slide}
+        direction='previous' />  
+      <CarouselContent currentMedia={currentMedia} />
+      <CarouselButton 
+        slide={slide}
+        direction='next' />  
+    </div>
+    <ProgressIndicator 
+      mediaeCount={mediae.length} 
+      currentIndex={currentMedia.index}
+      jumpTo={jumpTo} />
   </div>
 {/if}
 
 <style>
+  .carousel-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   .carousel {
     position: relative;
     display: flex;
