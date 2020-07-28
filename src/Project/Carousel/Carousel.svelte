@@ -84,10 +84,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: var(--medium);
   }
+
   .carousel {
     position: relative;
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
   }
+
+  @media screen and (max-width: 600px) {
+    .carousel {
+      justify-content: space-around;
+    }
+	}
 </style>

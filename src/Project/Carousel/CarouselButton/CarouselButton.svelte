@@ -25,4 +25,10 @@
     font-size: var(--gargantuan);
     margin: calc(-1 * var(--small));
   }
+
+  @media screen and (max-width: 600px) {
+    i {
+      font-size: var(--huge);
+    }
+	}
 </style>

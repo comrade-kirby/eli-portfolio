@@ -11,11 +11,13 @@
 
 {#if project}
   <section class='project'>
-    <h1>{project.name}</h1>
+    <h1 class='project-name'>{project.name}</h1>
     <Carousel mediae={project.projectMediae}/>
-    {#each project.projectCopy as copy}
-      <p>{copy}</p>
-    {/each}
+    <div class='project-description'>
+      {#each project.projectCopy as copy}
+        <p>{copy}</p>
+      {/each}
+    </div>
   </section>
 {/if}
 
@@ -25,5 +27,9 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
+  }
+
+  .project-description {
+    max-width: 1000px;
   }
 </style>

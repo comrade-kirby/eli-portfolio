@@ -23,4 +23,16 @@
     min-width: 50vh;
     object-fit: contain;
   }
+
+  @media screen and (max-width: 600px) {
+		.carousel-content {
+      height: 80vw;
+      width: 80vw;
+    }
+
+    img {
+      min-height: 80vw;
+      min-width: 80vw;
+    }
+	}
 </style>

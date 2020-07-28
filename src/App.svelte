@@ -47,7 +47,7 @@
 		--tiny: 0.75rem;
 		--small: 1rem;
 		--medium: 1.25rem;
-		--large: 1.5rem;
+		--large: 2rem;
 		--huge: 3rem;
 		--gargantuan: 5rem;
 
@@ -67,6 +67,18 @@
 		outline: none;
 	}
 
+	:global(h1) {
+		font-size: var(--huge);
+    margin-top: calc(-1 * var(--huge));
+    margin-bottom: var(--medium);
+	}
+
+	:global(p) {
+		font-size: var(--medium);
+		line-height: var(--large);
+		margin-bottom: var(--small);
+	}
+
 	@media screen and (max-width: 1400px) {
 		main {
 			margin-right: var(--huge);
@@ -77,6 +89,16 @@
 	@media screen and (max-width: 1000px) {
 		main {
 			margin: var(--medium);
+		}
+	}
+
+	@media screen and (max-width: 600px) {
+		:global(h1) {
+			font-size: var(--large);
+		}
+
+		:global(p) {
+			font-size: var(--small);
 		}
 	}
 </style>
