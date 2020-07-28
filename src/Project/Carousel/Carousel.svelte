@@ -1,18 +1,16 @@
 <script>
   import anime from 'animejs/lib/anime.es.js'
 
+  import Media from './Media/Media.svelte'
+
   export let mediae
 
-  let currentMedia
+  let currentMedia, height
   let linkedMediae = []
   
   const linkMediae = (mediae) => {
     mediae.forEach((media, i) => {
-      const newNode = {
-        url: media
-      }
-      
-      linkedMediae.push(newNode)
+      linkedMediae.push(media)
 
       if (linkedMediae[i - 1]) { 
         linkedMediae[i].previous = linkedMediae[i - 1] 
@@ -33,15 +31,16 @@
     const nextMedia = direction == 'previous' 
       ? currentMedia.previous 
       : currentMedia.next
+    const targets = 'img'
 
     anime({
-      targets: 'img',
+      targets,
       translateX: translate,
       duration: 300,
       easing: 'easeInOutCubic',
       complete: () => {
         anime({
-          targets: 'img',
+          targets,
           translateX: 0,
           duration: 0
         })
@@ -59,10 +58,10 @@
     on:click={() => slide('previous')}>
     <i class="material-icons">keyboard_arrow_left</i>
   </button>  
-  <div class='media-container'>
-    <img src={currentMedia.previous.url} />
-    <img src={currentMedia.url} />
-    <img src={currentMedia.next.url} />
+  <div class='mediae-container'>
+    <Media media={currentMedia.previous} />
+    <Media media={currentMedia} />
+    <Media media={currentMedia.next} />
   </div>
   <button class='button next'
     on:click={() => slide('next')}>
@@ -72,14 +71,14 @@
 
 <style>
   .carousel {
-    position: relative;  
+    position: relative;
   }
 
-  .media-container {
+  .mediae-container {
     display: flex;
     flex-direction: row;
-    height: 400px;
-    width: 400px;
+    height: 50vh;
+    width: 50vh;
     justify-content: center;
     overflow: hidden;
   }
@@ -88,7 +87,7 @@
     position: absolute;
     top: 0;
     height: 100%;
-    background: transparent;
+    background: white;
     border: none;
     z-index: 1;
     cursor: pointer;
@@ -100,12 +99,6 @@
 
   .next {
     right: 0;
-  }
-
-  img {
-    height: 400px;
-    min-width: 400px;
-    object-fit: contain;
   }
 
   i { 

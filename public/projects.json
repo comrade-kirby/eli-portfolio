@@ -8,12 +8,30 @@
       "Pilsen’s Punch House is the basement punch bar situated underneath Dusek’s and music venue Thalia Hall. After being approached by the bar’s music programming manager to create a new social media template, I set out to create a set that reflected Punch House’s modest identity while embracing the wide range of programming that the DJs bring. "
     ],
     "projectMediae": [
-      "/project_content/16_on_center/project/IG_SLA-We're-Hiring.gif",
-      "/project_content/16_on_center/project/IGS_Bite_Weekly_Specials.mp4",
-      "/project_content/16_on_center/project/IGS_Bite-Weekly-Specials.gif",
-      "/project_content/16_on_center/project/punch_house_identity_social.jpg",
-      "/project_content/16_on_center/project/Punch-House-Identity-Social-IG.gif",
-      "/project_content/16_on_center/project/were_hiring.gif"
+      { 
+        "url": "/project_content/16_on_center/project/IG_SLA-We're-Hiring.gif",
+        "altText": "insert some text here"
+      },
+      { 
+        "url": "/project_content/16_on_center/project/IGS_Bite_Weekly_Specials.mp4",
+        "altText": "insert some text here"
+      },
+      { 
+        "url": "/project_content/16_on_center/project/IGS_Bite-Weekly-Specials.gif",
+        "altText": "insert some text here"
+      },
+      { 
+        "url": "/project_content/16_on_center/project/punch_house_identity_social.jpg",
+        "altText": "insert some text here"
+      },
+      { 
+        "url": "/project_content/16_on_center/project/Punch-House-Identity-Social-IG.gif",
+        "altText": "insert some text here"
+      },
+      { 
+        "url": "/project_content/16_on_center/project/were_hiring.gif",
+        "altText": "insert some text here"
+      }
     ]
   },
   "2020_calendar": {
