@@ -3,13 +3,7 @@
   export let currentIndex
   export let jumpTo
 
-  let dots
-
-  const iterableCount = (numberOfSections) => {
-    return [...Array(numberOfSections).keys()]
-  }
-
-  $: dots = iterableCount(mediaeCount)
+  const dots = [...Array(mediaeCount).keys()]
 </script>
 
 <div class='progress-indicator'>

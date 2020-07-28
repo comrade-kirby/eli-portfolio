@@ -1,6 +1,7 @@
 <script>
   export let slide
   export let direction
+  
   const icon = direction == 'previous' 
     ? 'keyboard_arrow_left'
     : 'keyboard_arrow_right'
