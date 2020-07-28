@@ -27,7 +27,7 @@
   }
 
   const slide = (direction) => {
-    const translate = direction == 'previous' ? 400 : -400
+    const translate = direction == 'previous' ? height : -height
     const nextMedia = direction == 'previous' 
       ? currentMedia.previous 
       : currentMedia.next
@@ -54,16 +54,16 @@
 
 <div class='carousel'>
   <button 
-    class='button previous'
+    class='button'
     on:click={() => slide('previous')}>
     <i class="material-icons">keyboard_arrow_left</i>
   </button>  
-  <div class='mediae-container'>
+  <div class='mediae-container' bind:clientHeight={height}>
     <Media media={currentMedia.previous} />
     <Media media={currentMedia} />
     <Media media={currentMedia.next} />
   </div>
-  <button class='button next'
+  <button class='button'
     on:click={() => slide('next')}>
     <i class="material-icons">keyboard_arrow_right</i>
   </button>
@@ -72,6 +72,8 @@
 <style>
   .carousel {
     position: relative;
+    display: flex;
+    flex-direction: row;
   }
 
   .mediae-container {
@@ -84,21 +86,10 @@
   }
 
   .button {
-    position: absolute;
-    top: 0;
-    height: 100%;
+    min-height: 100%;
     background: white;
     border: none;
-    z-index: 1;
     cursor: pointer;
-  }
-
-  .previous {
-    left: 0;
-  }
-
-  .next {
-    right: 0;
   }
 
   i { 
