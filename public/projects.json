@@ -58,13 +58,26 @@
     ]
   },
   "cresco": {
-    "name": "CRESCO",
+    "name": "CRESCO LABS",
     "homePrimary": "/project_content/cresco/home/cresco_copy.png",
     "homeSecondary": "/project_content/cresco/home/cresco.png",
     "projectCopy": [
       "Cresco Labs, a leading cannabis company located in Chicago, IL, reached out to me in 2019 to create a promotional t-shirt design for St. Patrick’s Day. As a cannabis company, Cresco Labs is very familiar with the typical associations made with cannabis and, with an older demographic, they were looking for a clever design that their clientele would proudly wear on St. Patrick’s Day and beyond. The t-shirt was sent out to medicinal dispensaries around the country and given to Cresco’s loyal customers on St. Patrick’s Day."
     ],
-    "projectMediae": []
+    "projectMediae": [
+      {"url": "/project_content/cresco/project/CrescoTShirt.png",
+        "altText": "Final design chosen for Cresco Labs' St Patrick's Day"
+      },
+      {"url": "/project_content/cresco/project/CrescoRejected.png",
+        "altText": "Proposed design for Cresco Labs' St Patrick's Day"
+      },
+      {"url": "/project_content/cresco/project/CrescoRejected2.png",
+        "altText": "Proposed design for Cresco Labs' St Patrick's Day"
+      },
+      {"url": "/project_content/cresco/project/CrescoRejecred3.png",
+        "altText": "Proposed design for Cresco Labs' St Patrick's Day"
+      }
+    ]
   },
   "eg_pottery": {
     "name": "EG POTTERY",
@@ -99,7 +112,20 @@
     "homePrimary": "/project_content/j_bengoy/home/j_bengoy.png",
     "homeSecondary": "/project_content/j_bengoy/home/j_b_stick.png",
     "projectCopy": [],
-    "projectMediae": []
+    "projectMediae": [
+      {"url": "/project_content/j_bengoy/project/DogwoodWinterAlbum.jpg",
+        "altText": "Dogwood Winter album cover"
+      },
+      {"url": "/project_content/j_bengoy/project/JBengoyTShirt.png",
+        "altText": "J Bengoy t-shirt with illustration"
+      },
+      {"url": "/project_content/j_bengoy/project/SoGoodICouldDieiPhone.png",
+        "altText": "So Good (I Could I Die) single cover on Spotify"
+      },
+      {"url": "/project_content/j_bengoy/project/RepriseiPhone.png",
+        "altText": "Reprise (Marthasville) single cover on Spotify"
+      },
+    ]
   },
   "max_oppenheimer": {
     "name": "MAX OPPENHEIMER",
@@ -119,8 +145,29 @@
     "name": "GROOVY TUNA",
     "homePrimary": "/project_content/groovy_tuna/home/GroovyTunaSplash.png",
     "homeSecondary": "/project_content/groovy_tuna/home/GroovyTunaSticker.png",
-    "projectCopy": [],
-    "projectMediae": []
+    "projectCopy": [
+      "I was approached by Rachel Vogrich of Groovy Tuna Goods to create a brand identity for her custom-made jewelry and art business. The logo set includes social media icons and alternative logos to be used for stickers, t-shirts, and business cards."
+    ],
+    "projectMediae": [
+      {"url": "/project_content/groovy_tuna/project/FINAL-02.png",
+        "altText": "Arches logo for Groovy Tuna Goods"
+      },
+      {"url": "/project_content/groovy_tuna/project/FINAL-07.png",
+        "altText": "Alternative logo"
+      },
+      {"url": "/project_content/groovy_tuna/project/FINAL-03.png",
+        "altText": "Circle logo"
+      },
+      {"url": "/project_content/groovy_tuna/project/GroovyTunaTshirt.png",
+        "altText": "Groovy Tuna Goods T-shirt"
+      },
+      {"url": "/project_content/groovy_tuna/project/Groovy Tuna Business Cards.png",
+        "altText": "Groovy Tuna Goods business cards"
+      },
+      {"url": "/project_content/groovy_tuna/project/Groovy Tuna Water Bottle.png",
+        "altText": "Groovy Tuna Goods sticker mockup"
+      }
+    ]
   },
   "pbr_jim_beam": {
     "name": "PBR & JIM BEAM",
