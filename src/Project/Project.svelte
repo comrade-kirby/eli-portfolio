@@ -38,8 +38,13 @@
   }
 
   @media screen and (max-width: 1000px) {
+    .project {
+      align-items: center;
+    }
+
     .project-name {
       margin-right: var(--large);
+      align-self: flex-end;
     }
 
     .project-description {

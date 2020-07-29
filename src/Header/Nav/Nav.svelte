@@ -21,19 +21,11 @@
 
   .nav-button {
     position: relative;
-    color: var(--black);
-    text-decoration: none;
     padding: var(--medium);
-    cursor: pointer;
     background: transparent;
     font-size: var(--medium);
     font-weight: 700;
-    transition: background 0.3s ease-in-out;
     z-index: 1;
-  }
-
-  .nav-button:hover {
-    background: var(--translucent-grey);
   }
 
   @media screen and (max-width: 1400px) {

@@ -53,7 +53,7 @@
 
 		--translucent-white: hsla(0, 0%, 100%, 90%);
 		--translucent-grey: hsla(0, 0%, 96%, 90%);
-		--black: hsla(0, 0%, 10%, 100%);
+		--black: rgb(55, 50, 70);
 		--grey: hsla(0, 0%, 50%, 100%);
 
 		max-width: 1200px;
@@ -64,6 +64,17 @@
 		padding: 0;
 		margin: 0;
 		font-family: 'Quicksand', sans-serif;
+		color: var(--black);
+	}
+
+	:global(a) {
+		cursor: pointer;
+    text-decoration: none;
+    transition: color 0.2s ease-in;
+	}
+
+	:global(a:hover) {
+		color: red;
 	}
 
 	main {
@@ -85,7 +96,7 @@
 	:global(p) {
 		font-size: var(--medium);
 		line-height: var(--large);
-		margin-bottom: var(--small);
+		margin-bottom: var(--large);
 		text-align: justify;
 		font-weight: 400;
 	}

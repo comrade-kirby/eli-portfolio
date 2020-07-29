@@ -23,7 +23,12 @@
 
   i { 
     font-size: var(--gargantuan);
-    margin: calc(-1 * var(--small));
+    margin: calc(-1 * var(--tiny));
+    transition: color 0.2s ease-in;
+  }
+
+  .button:hover i {
+    color: red;
   }
 
   @media screen and (max-width: 600px) {

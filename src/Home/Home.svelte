@@ -17,8 +17,15 @@
     grid-gap: var(--huge);
   }
 
+  @media screen and (max-width: 1400px) {
+    .home {
+      grid-gap: var(--tiny)
+    }
+  }
+
   @media screen and (max-width: 1000px) {
     .home {
+      grid-gap: var(--gargantuan);
       grid-template-columns: repeat(2, 1fr);
     }
   }

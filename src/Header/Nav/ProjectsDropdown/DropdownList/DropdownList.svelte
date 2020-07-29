@@ -25,17 +25,10 @@
   }
 
   a {
-    color: var(--black);
     background-color: var(--translucent-white);
-    text-decoration: none;
     font-size: var(--small);
     padding: var(--tiny) var(--medium);
-    transition: background 0.3s ease-in-out;
     z-index: 2;
-  }
-
-  a:hover {
-    background: var(--translucent-grey);
   }
 
    @media screen and (max-width: 600px) {

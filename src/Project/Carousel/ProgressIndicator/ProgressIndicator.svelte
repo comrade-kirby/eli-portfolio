@@ -10,10 +10,9 @@
   {#each dots as dot, i}
     <svg 
       viewBox="0 0 20 20"
-      on:click={() => jumpTo(i)} >
-      <circle 
-        cx="10" cy="10" r="8" 
-        class:active="{i == currentIndex}" />
+      on:click={() => jumpTo(i)} 
+      class:active="{i == currentIndex}">
+      <circle cx="10" cy="10" r="8" />
     </svg>
   {/each}
 </div>
@@ -23,22 +22,44 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: var(--tiny);
+    align-items: center;
+    margin: var(--large);
   }
   
   svg {
-    height: 10px;
-    margin: 3px;
+    height: var(--tiny);
+    margin: 5px;
     cursor: pointer;
+    transition: 0.2s ease-in;
   }
 
-  circle {
-    stroke: var(--grey);
-    stroke-width: 2;
-    fill: none;
+  svg:hover {
+    height: calc(var(--tiny) + 2px);
   }
 
   .active {
-    fill: var(--grey);
+    cursor: auto;
+    height: calc(var(--tiny) + 2px);
+  }
+
+  circle {
+    stroke: var(--black);
+    stroke-width: 4;
+    stroke: var(--black);
+    fill: var(--black);
+    transition: 0.2s ease-in;
+  }
+
+  circle:hover {
+    fill: red;
+    stroke: red;
+  }
+
+  .active circle {
+    fill: none;
+  }
+  
+  .active circle:hover {
+    stroke: var(--black);
   }
 </style>

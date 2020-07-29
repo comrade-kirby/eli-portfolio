@@ -84,7 +84,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: var(--medium);
+    margin-bottom: var(--large);
   }
 
   .carousel {

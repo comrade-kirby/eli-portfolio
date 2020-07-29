@@ -16,7 +16,6 @@
 <style>
  .project {
     width: 100%;
-    cursor: pointer;
     position: relative;
   }
 
