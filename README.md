@@ -2,32 +2,37 @@
 #### VSCode
 1. Download [VSCode](https://code.visualstudio.com/Download)
 2. Launch VSCode
-3. press `⇧⌘P` while in the app
-4. Type `shell command` in the prompt and select the first item to install 'code'
+3. press `shift` + `command` + `p` while in the VSCode
+4. Type `shell command` in the prompt and select the first item to install 'code' command
+> the `code` command allows you to open files and folders from the terminal
 
 #### Terminal 
-1. `cd Desktop/websitematerial` to move to your documents folder
-2. `git clone git@github.com:OppNHeimer/eli-portfolio.git` to download the project folder
-3 `git checkout eli` to switch to your branch
-4. `npm install` to install dependencies
-5. `code .` to open the project in VSCode
+1. `$ cd Desktop/websitematerial` to move to your documents folder
+2. `$ git clone git@github.com:OppNHeimer/eli-portfolio.git` to download the project folder
+3. `$ git checkout eli` to switch to your branch
+4. `$npm install` to install dependencies
+5. `$ code .` to open the project in VSCode
 
 ## Run project locally
-1. `cd Desktop/websitematerial/eli-portfolio` to move into the project folder
-2. `git checkout eli` to switch to your branch
-3. `git pull` to pull any changes from github
-4. `npm install` to install any new dependencies
-5. `npm run dev` to start a local server running the project
-6. in a web browser go to `http://localhost:5000/` to view the project
+In terminal:
+1. `$ cd Desktop/websitematerial/eli-portfolio` to move into the project folder
+2. `$ git checkout eli` to switch to your branch
+3. `$ git pull` to pull any changes from github
+4. `$ npm install` to install any new dependencies
+5. `$ npm run dev` to start a local server running the project
 
-> to quit press `ctrl` + `c`
+> to stop: press `ctrl` + `c` **stop before quitting terminal**
+
+Go to `http://localhost:5000/` to view the project in a web browser
 
 ## To Edit
 
 #### Run project locally (same as above)
+
 #### Opening the project
-1. `cd Desktop/websitematerial/eli-portfolio` to move into the project folder
-2. `code .` to open the project in VSCode 
+In a new terminal window if your server is already running:
+1. `$ cd Desktop/websitematerial/eli-portfolio` to move into the project folder
+2. `$ code .` to open the project in VSCode 
 
 > or open from VSCode
 
@@ -40,6 +45,7 @@ Each folder should include a folder `/home` and `/project`
 To add images, drag and drop files into the correct folders
 
 Project folders and files should be named with underscores (`_`) instead of spaces. 
+
 > right click the file and select rename
 
 #### Editing `projects.json`
