@@ -89,7 +89,7 @@
 
 	:global(h1) {
 		font-size: var(--large);
-    margin-bottom: var(--medium);
+    margin-bottom: var(--huge);
 		font-weight: 700;
 	}
 
