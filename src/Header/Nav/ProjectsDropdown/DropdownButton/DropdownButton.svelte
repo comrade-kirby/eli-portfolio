@@ -1,15 +1,21 @@
 <script>
   export let toggleOpen
   export let open
+
+  let rotation = 180
+
+  const rand180 = (open) => rotation = open ? -rotation : rotation
+
+  $: rand180(open)
 </script>
 
-<button class='dropdown-button' on:click={toggleOpen}>
+<button 
+  class:open
+  class='dropdown-button'
+  on:click={toggleOpen}
+  style='--degrees:{rotation}deg'>
   PROJECTS
-  {#if open}
-    <i class="material-icons">keyboard_arrow_up</i>
-  {:else}
-    <i class="material-icons">keyboard_arrow_down</i>
-  {/if}
+  <i class="material-icons">keyboard_arrow_up</i>
 </button>
 
 <style>
@@ -27,6 +33,11 @@
 
   i {
     margin-left: var(--tiny);
+    transition: 0.2s ease-in;
+  }
+
+  .open i {
+    transform: rotateZ(var(--degrees));
   }
 
   @media screen and (max-width: 600px) {
