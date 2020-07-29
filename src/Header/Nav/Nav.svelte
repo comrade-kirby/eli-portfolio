@@ -27,7 +27,7 @@
     cursor: pointer;
     background: transparent;
     font-size: var(--medium);
-    font-weight: 600;
+    font-weight: 700;
     transition: background 0.3s ease-in-out;
     z-index: 1;
   }
@@ -36,7 +36,18 @@
     background: var(--translucent-grey);
   }
 
+  @media screen and (max-width: 1400px) {
+    nav {
+      margin-right: var(--tiny);
+    }
+  }
+
   @media screen and (max-width: 600px) {
+
+    nav {
+      margin-right: unset;
+    }
+
     .nav-button {
       font-size: var(--tiny);
       padding: var(--tiny);

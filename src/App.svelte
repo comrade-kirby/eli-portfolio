@@ -55,11 +55,20 @@
 		--translucent-grey: hsla(0, 0%, 96%, 90%);
 		--black: hsla(0, 0%, 10%, 100%);
 		--grey: hsla(0, 0%, 50%, 100%);
+
+		max-width: 1200px;
+		margin: auto;
+	}
+
+	:global(*) {
+		padding: 0;
+		margin: 0;
+		font-family: 'Quicksand', sans-serif;
 	}
 
 	main {
-		margin-right: calc(2 * var(--huge));
-    margin-bottom: calc(2 * var(--huge));
+		margin-right: calc(2 * var(--gargantuan));
+    margin-bottom: calc(2 * var(--gargantuan));
     margin-left: calc(150px + (2 * var(--medium)));
 	}
 
@@ -68,33 +77,39 @@
 	}
 
 	:global(h1) {
-		font-size: var(--huge);
-    margin-top: calc(-1 * var(--huge));
+		font-size: var(--large);
     margin-bottom: var(--medium);
+		font-weight: 700;
 	}
 
 	:global(p) {
 		font-size: var(--medium);
 		line-height: var(--large);
 		margin-bottom: var(--small);
+		text-align: justify;
+		font-weight: 400;
 	}
 
 	@media screen and (max-width: 1400px) {
 		main {
-			margin-right: var(--huge);
-			margin-bottom: var(--huge);
+			margin-right: var(--gargantuan);
+			margin-bottom: var(--gargantuan);
 		}
 	}
 
 	@media screen and (max-width: 1000px) {
 		main {
 			margin: var(--medium);
+			margin-bottom: var(--huge);
 		}
 	}
 
 	@media screen and (max-width: 600px) {
+		
+
 		:global(h1) {
-			font-size: var(--large);
+			font-size: var(--medium);
+			/* margin-top: unset; */
 		}
 
 		:global(p) {

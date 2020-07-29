@@ -29,7 +29,31 @@
     align-items: flex-end;
   }
 
+  .project-name {
+    margin-top: calc(-1 * var(--huge));
+  }  
+
   .project-description {
     max-width: 1000px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .project-name {
+      margin-right: var(--large);
+    }
+
+    .project-description {
+      margin-right: var(--large);
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .project-name {
+      margin-right: unset;
+    }
+
+    .project-description {
+      margin-right: unset;
+    }
   }
 </style>

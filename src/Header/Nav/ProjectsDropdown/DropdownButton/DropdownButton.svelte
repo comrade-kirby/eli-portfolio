@@ -20,7 +20,7 @@
     color: var(--black);
     background: transparent;
     font-size: var(--medium);
-    font-weight: 600;
+    font-weight: 700;
     padding: var(--medium);
     cursor: pointer;
   }
