@@ -5,7 +5,7 @@
   a {
     height: 150px;
     width: 150px;
-    background-color: red;
+    background-color: var(--red);
     margin: var(--medium);
   }
 </style>

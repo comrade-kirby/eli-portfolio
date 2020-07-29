@@ -16,7 +16,7 @@
 <style>
   .button {
     min-height: 100%;
-    background: white;
+    background: transparent;
     border: none;
     cursor: pointer;
   }
@@ -28,7 +28,7 @@
   }
 
   .button:hover i {
-    color: red;
+    color: var(--red);
   }
 
   @media screen and (max-width: 600px) {

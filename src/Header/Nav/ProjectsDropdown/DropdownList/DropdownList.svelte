@@ -48,10 +48,6 @@
     z-index: 2;
   }
 
-  a:hover {
-    background-color: white;
-  }
-
    @media screen and (max-width: 600px) {
     a {
       font-size: var(--tiny);

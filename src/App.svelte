@@ -51,10 +51,12 @@
 		--huge: 3rem;
 		--gargantuan: 5rem;
 
+		--black: hsl(245, 15%, 20%);
+		--white: hsla(245, 50%, 99%, 95%);
+		--red: hsl(0, 100%, 45%);
+
 		--translucent-white: hsla(0, 0%, 100%, 90%);
 		--translucent-grey: hsla(0, 0%, 96%, 90%);
-		--black: rgb(55, 50, 70);
-		--grey: hsla(0, 0%, 50%, 100%);
 
 		max-width: 1200px;
 		margin: auto;
@@ -70,11 +72,11 @@
 	:global(a) {
 		cursor: pointer;
     text-decoration: none;
-    transition: 0.2s ease-in;
+    transition: color 0.2s ease-in;
 	}
 
 	:global(a:hover) {
-		color: red;
+		color: var(--red);
 	}
 
 	main {
