@@ -13,10 +13,6 @@
         "altText": "insert some text here"
       },
       { 
-        "url": "/project_content/16_on_center/project/IGS_Bite_Weekly_Specials.mp4",
-        "altText": "insert some text here"
-      },
-      { 
         "url": "/project_content/16_on_center/project/IGS_Bite-Weekly-Specials.gif",
         "altText": "insert some text here"
       },
@@ -45,14 +41,29 @@
     "name": "BLEACH DAY",
     "homePrimary": "/project_content/bleach_day/home/bleach_day.png",
     "homeSecondary": "/project_content/bleach_day/home/bleach_day_stick.png",
-    "projectCopy": [],
-    "projectMediae": []
+    "projectCopy": [
+      "\"Analog-obsessed\"-Burlington, VT band Bleach Day released their second album \"as if always\" and reached out for a t-shirt design. The group wanted an illustration that would tie in with the album's visual identity of flowers, goldfish, and nostalgia.",
+      "The two-color design was printed in Burlington, VT."
+    ],
+    "projectMediae": [
+      { 
+        "url": "/project_content/bleach_day/project/bleach_day-03.png",
+        "altText": "Bleach Day illustration with six televisions, flowers, and goldfish"
+      },
+      {
+        "url": "/project_content/bleach_day/project/BleachDayTShirt.png",
+        "altText": "T-shirt with Bleach Day illustration"
+      }
+
+    ]
   },
   "cresco": {
     "name": "CRESCO",
     "homePrimary": "/project_content/cresco/home/cresco_copy.png",
     "homeSecondary": "/project_content/cresco/home/cresco.png",
-    "projectCopy": [],
+    "projectCopy": [
+      "Cresco Labs, a leading cannabis company located in Chicago, IL, reached out to me in 2019 to create a promotional t-shirt design for St. Patrick’s Day. As a cannabis company, Cresco Labs is very familiar with the typical associations made with cannabis and, with an older demographic, they were looking for a clever design that their clientele would proudly wear on St. Patrick’s Day and beyond. The t-shirt was sent out to medicinal dispensaries around the country and given to Cresco’s loyal customers on St. Patrick’s Day."
+    ],
     "projectMediae": []
   },
   "eg_pottery": {
