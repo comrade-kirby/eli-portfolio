@@ -70,7 +70,7 @@
 	:global(a) {
 		cursor: pointer;
     text-decoration: none;
-    transition: color 0.2s ease-in;
+    transition: 0.2s ease-in;
 	}
 
 	:global(a:hover) {

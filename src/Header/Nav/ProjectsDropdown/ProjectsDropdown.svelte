@@ -8,14 +8,15 @@
   let open = false
 
   const toggleOpen = () => open = !open
+  const openList = () => open = true
   const closeList = () => open = false
 </script>
 
 <div 
   class='projects-dropdown' 
   bind:clientHeight={height}
-  on:mouseenter={toggleOpen}
-  on:mouseleave={toggleOpen}>
+  on:mouseenter={openList}
+  on:mouseleave={closeList}>
   <DropdownButton 
     open={open}
     toggleOpen={toggleOpen} />
@@ -23,7 +24,7 @@
     <DropdownList 
       projects={projects} 
       buttonHeight={height} 
-      toggleOpen={toggleOpen} />
+      closeList={closeList} />
   {/if}
 </div>
 {#if open}

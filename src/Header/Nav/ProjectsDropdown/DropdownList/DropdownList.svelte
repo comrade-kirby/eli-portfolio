@@ -1,21 +1,38 @@
 <script>
+  import { onMount } from 'svelte'
+  import { fade } from 'svelte/transition'
+  import anime from 'animejs/lib/anime.es.js'
+
   export let projects
   export let buttonHeight
-  export let toggleOpen
+  export let closeList
+
+  onMount(() => {
+    anime({
+      targets: '.dropdown-link',
+      opacity: [0, 1],
+      duration: 1000,
+      delay: anime.stagger(10)
+    })
+  })
 </script>
 
-<ul class='project-links' style='--parent-height:{buttonHeight}px'>
+<ul 
+  out:fade="{{duration: 200 }}"
+  class='dropdown-list' 
+  style='--parent-height:{buttonHeight}px'>
   {#each projects as project}
     <a 
+      class='dropdown-link'
       href='/projects/{project.key}'
-      on:click={toggleOpen}>
+      on:click={closeList}>
       {project.name}
     </a>
   {/each}
 </ul>
 
 <style>
-  .project-links {
+  .dropdown-list {
     position: absolute;
     top: var(--parent-height);
     display: flex;
@@ -29,6 +46,10 @@
     font-size: var(--small);
     padding: var(--tiny) var(--medium);
     z-index: 2;
+  }
+
+  a:hover {
+    background-color: white;
   }
 
    @media screen and (max-width: 600px) {
