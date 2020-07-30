@@ -16,21 +16,21 @@
     flex-direction: row;
     align-items: center;
     align-self: flex-start;
-    margin-right: var(--huge);
+    margin-right: var(--huge-spacing);
   }
 
   .nav-button {
     position: relative;
-    padding: var(--medium);
+    padding: var(--medium-spacing);
     background: transparent;
-    font-size: var(--medium);
+    font-size: var(--medium-font);
     font-weight: 700;
     z-index: 1;
   }
 
   @media screen and (max-width: 1400px) {
     nav {
-      margin-right: var(--tiny);
+      margin-right: var(--small-spacing);
     }
   }
 
@@ -41,8 +41,8 @@
     }
 
     .nav-button {
-      font-size: var(--tiny);
-      padding: var(--tiny);
+      font-size: var(--small-font);
+      padding: var(--tiny-spacing);
     }
   }
 </style>

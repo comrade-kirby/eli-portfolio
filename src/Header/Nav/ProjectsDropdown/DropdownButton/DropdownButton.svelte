@@ -25,14 +25,14 @@
     border: none;
     color: var(--black);
     background: transparent;
-    font-size: var(--medium);
+    font-size: var(--medium-font);
     font-weight: 700;
-    padding: var(--medium);
+    padding: var(--medium-spacing);
     cursor: pointer;
   }
 
   i {
-    margin-left: var(--tiny);
+    margin-left: var(--tiny-spacing);
     transition: 0.2s ease-in;
   }
 
@@ -42,8 +42,8 @@
 
   @media screen and (max-width: 600px) {
     .dropdown-button {
-      font-size: var(--tiny);
-      padding: var(--tiny);
+      font-size: var(--small-font);
+      padding: var(--tiny-spacing);
     }
   }
 </style>

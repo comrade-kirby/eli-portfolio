@@ -23,23 +23,23 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: var(--large);
+    margin: var(--large-spacing);
   }
   
   svg {
-    height: var(--tiny);
+    height: var(--tiny-spacing);
     margin: 5px;
     cursor: pointer;
     transition: 0.2s ease-in;
   }
 
   svg:hover {
-    height: calc(var(--tiny) + 2px);
+    height: calc(var(--tiny-spacing) + 2px);
   }
 
   .active {
     cursor: auto;
-    height: calc(var(--tiny) + 2px);
+    height: calc(var(--tiny-spacing) + 2px);
   }
 
   circle {

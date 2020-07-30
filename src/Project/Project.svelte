@@ -23,14 +23,14 @@
 
 <style>
   .project {
-    display: flex;
-    flex-direction: column;
+    display:         flex;
+    flex-direction:  column;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items:     flex-end;
   }
 
   .project-name {
-    margin-top: calc(-1 * var(--huge));
+    margin-top: calc(-1 * var(--huge-spacing));
   }  
 
   .project-description {
@@ -43,12 +43,12 @@
     }
 
     .project-name {
-      margin-right: var(--large);
       align-self: flex-end;
+      margin-right: var(--large-spacing);
     }
 
     .project-description {
-      margin-right: var(--large);
+      margin-right: var(--large-spacing);
     }
   }
   

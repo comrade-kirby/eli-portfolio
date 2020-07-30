@@ -22,8 +22,8 @@
   }
 
   i { 
-    font-size: var(--gargantuan);
-    margin: calc(-1 * var(--tiny));
+    font-size: var(--gargantuan-font);
+    margin: calc(-1 * var(--tiny-spacing));
     transition: color 0.2s ease-in;
   }
 
@@ -33,7 +33,7 @@
 
   @media screen and (max-width: 600px) {
     i {
-      font-size: var(--huge);
+      font-size: var(--huge-font);
     }
 	}
 </style>

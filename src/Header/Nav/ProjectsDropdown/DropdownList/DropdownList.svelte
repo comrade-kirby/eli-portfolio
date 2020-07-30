@@ -43,15 +43,15 @@
 
   a {
     background-color: var(--translucent-white);
-    font-size: var(--small);
-    padding: var(--tiny) var(--medium);
+    font-size: var(--small-font);
+    padding: var(--tiny-spacing) var(--medium-spacing);
     z-index: 2;
   }
 
    @media screen and (max-width: 600px) {
     a {
-      font-size: var(--tiny);
-      padding: var(--tiny) var(--small);
+      font-size: var(--tiny-font);
+      padding: var(--small-spacing) var(--small-spacing);
     }
   }
 </style>

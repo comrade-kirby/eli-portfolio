@@ -44,29 +44,35 @@
 
 <style>
 	:global(body) {
-		--tiny: 0.75rem;
-		--small: 1rem;
-		--medium: 1.25rem;
-		--large: 2rem;
-		--huge: 3rem;
-		--gargantuan: 5rem;
+		--tiny-spacing:       8px;
+		--small-spacing:      16px;
+		--medium-spacing:     20px;
+		--large-spacing:      32px;
+		--huge-spacing:       48px;
+		--gargantuan-spacing: 80px;
+
+		--tiny-font:       0.75rem;
+		--small-font:      1rem;
+		--medium-font:     1.25rem;
+		--large-font:      2rem;
+		--huge-font:       3rem;
+		--gargantuan-font: 5rem;
 
 		--black: hsl(245, 15%, 20%);
 		--white: hsla(245, 50%, 99%, 95%);
-		--red: hsl(0, 100%, 45%);
-
+		--red:   hsl(0, 100%, 45%);
 		--translucent-white: hsla(0, 0%, 100%, 90%);
-		--translucent-grey: hsla(0, 0%, 96%, 90%);
+		--translucent-grey:  hsla(0, 0%, 96%, 90%);
 
-		max-width: 1200px;
 		margin: auto;
+		max-width: 1200px;
 	}
 
 	:global(*) {
 		padding: 0;
 		margin: 0;
-		font-family: 'Quicksand', sans-serif;
 		color: var(--black);
+		font-family: 'Quicksand', sans-serif;
 	}
 
 	:global(a) {
@@ -80,9 +86,9 @@
 	}
 
 	main {
-		margin-right: calc(2 * var(--gargantuan));
-    margin-bottom: calc(2 * var(--gargantuan));
-    margin-left: calc(150px + (2 * var(--medium)));
+		margin-right:  calc(2 * var(--gargantuan-spacing));
+    margin-bottom: calc(2 * var(--gargantuan-spacing));
+    margin-left:   calc(150px + (2 * var(--medium-spacing)));
 	}
 
 	:global(button) {
@@ -90,43 +96,40 @@
 	}
 
 	:global(h1) {
-		font-size: var(--large);
-    margin-bottom: var(--huge);
 		font-weight: 700;
+		font-size: var(--large-font);
+    margin-bottom: var(--huge-spacing);
 	}
 
 	:global(p) {
-		font-size: var(--medium);
-		line-height: var(--large);
-		margin-bottom: var(--large);
+		font-size: var(--medium-font);
+		line-height: var(--large-spacing);
+		margin-bottom: var(--large-spacing);
 		text-align: justify;
 		font-weight: 400;
 	}
 
 	@media screen and (max-width: 1400px) {
 		main {
-			margin-right: var(--gargantuan);
-			margin-bottom: var(--gargantuan);
+			margin-right:  var(--gargantuan-spacing);
+			margin-bottom: var(--gargantuan-spacing);
 		}
 	}
 
 	@media screen and (max-width: 1000px) {
 		main {
-			margin: var(--medium);
-			margin-bottom: var(--huge);
+			margin:        var(--medium-spacing);
+			margin-bottom: var(--huge-spacing);
 		}
 	}
 
 	@media screen and (max-width: 600px) {
-		
-
 		:global(h1) {
-			font-size: var(--medium);
-			/* margin-top: unset; */
+			font-size: var(--medium-font);
 		}
 
 		:global(p) {
-			font-size: var(--small);
+			font-size: var(--small-font);
 		}
 	}
 </style>
