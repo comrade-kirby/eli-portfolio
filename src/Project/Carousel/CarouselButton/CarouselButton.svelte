@@ -15,16 +15,16 @@
 
 <style>
   .button {
-    min-height: 100%;
-    background: transparent;
-    border: none;
     cursor: pointer;
+    min-height: 100%;
+    border: none;
+    background: transparent;
   }
 
   i { 
+    transition: color 0.2s ease-in;
     font-size: var(--gargantuan-font);
     margin: calc(-1 * var(--tiny-spacing));
-    transition: color 0.2s ease-in;
   }
 
   .button:hover i {

@@ -81,16 +81,16 @@
 
 <style>
   .carousel-container {
-    display: flex;
-    flex-direction: column;
+    display:         flex;
+    flex-direction:  column;
     justify-content: center;
     margin-bottom: var(--large-spacing);
   }
 
   .carousel {
-    position: relative;
-    display: flex;
-    flex-direction: row;
+    position:        relative;
+    display:         flex;
+    flex-direction:  row;
     justify-content: flex-end;
     width: 100%;
   }

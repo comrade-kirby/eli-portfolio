@@ -33,17 +33,17 @@
 
 <style>
   .dropdown-list {
-    position: absolute;
-    top: var(--parent-height);
-    display: flex;
+    display:        flex;
     flex-direction: column;
+    position:       absolute;
+    top: var(--parent-height);
     width: 100%;
     z-index: 2;
   }
 
   a {
-    background-color: var(--translucent-white);
     font-size: var(--small-font);
+    background-color: var(--translucent-white);
     padding: var(--tiny-spacing) var(--medium-spacing);
     z-index: 2;
   }

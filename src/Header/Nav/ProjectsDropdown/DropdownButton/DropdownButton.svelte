@@ -20,20 +20,20 @@
 
 <style>
   .dropdown-button {
-    display: flex;
+    display:     flex;
     align-items: center;
-    border: none;
-    color: var(--black);
-    background: transparent;
-    font-size: var(--medium-font);
     font-weight: 700;
-    padding: var(--medium-spacing);
+    color:       var(--black);
+    font-size:   var(--medium-font);
     cursor: pointer;
+    border: none;
+    background: transparent;
+    padding: var(--medium-spacing);
   }
 
   i {
-    margin-left: var(--tiny-spacing);
     transition: 0.2s ease-in;
+    margin-left: var(--tiny-spacing);
   }
 
   .open i {

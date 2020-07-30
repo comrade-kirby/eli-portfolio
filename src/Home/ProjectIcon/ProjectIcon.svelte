@@ -15,8 +15,8 @@
 
 <style>
  .project {
-    width: 100%;
     position: relative;
+    width: 100%;
   }
 
   .project::before {
@@ -26,10 +26,10 @@
   }
 
   img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
     position: absolute;
+    width:  100%;
+    height: 100%;
+    object-fit: contain;
     transition: opacity 0.2s ease-out;
   }
 

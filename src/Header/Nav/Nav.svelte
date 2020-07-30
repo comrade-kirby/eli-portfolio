@@ -12,19 +12,19 @@
 
 <style>
   nav {
-    display: flex;
+    display:        flex;
     flex-direction: row;
-    align-items: center;
+    align-items:    center;
     align-self: flex-start;
     margin-right: var(--huge-spacing);
   }
 
   .nav-button {
     position: relative;
+    font-weight: 700;
+    font-size: var(--medium-font);
     padding: var(--medium-spacing);
     background: transparent;
-    font-size: var(--medium-font);
-    font-weight: 700;
     z-index: 1;
   }
 

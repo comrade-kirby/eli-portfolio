@@ -19,18 +19,18 @@
 
 <style>
   .progress-indicator {
-    display: flex;
-    flex-direction: row;
+    display:         flex;
+    flex-direction:  row;
+    align-items:     center;
     justify-content: center;
-    align-items: center;
     margin: var(--large-spacing);
   }
   
   svg {
-    height: var(--tiny-spacing);
-    margin: 5px;
     cursor: pointer;
     transition: 0.2s ease-in;
+    height: var(--tiny-spacing);
+    margin: 5px;
   }
 
   svg:hover {
@@ -43,15 +43,14 @@
   }
 
   circle {
+    fill:   var(--black);
     stroke: var(--black);
     stroke-width: 4;
-    stroke: var(--black);
-    fill: var(--black);
     transition: 0.2s ease-in;
   }
 
   circle:hover {
-    fill: var(--red);
+    fill:   var(--red);
     stroke: var(--red);
   }
 

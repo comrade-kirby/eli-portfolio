@@ -10,29 +10,29 @@
 
 <style>
   .carousel-content {
-    display: flex;
-    flex-direction: row;
-    height: 50vh;
-    width: 50vh;
+    display:         flex;
+    flex-direction:  row;
     justify-content: center;
+    width:  50vh;
+    height: 50vh;
     overflow: hidden;
   }
 
   img {
+    min-width:  50vh;
     min-height: 50vh;
-    min-width: 50vh;
     object-fit: contain;
   }
 
   @media screen and (max-width: 600px) {
 		.carousel-content {
+      width:  80vw;
       height: 80vw;
-      width: 80vw;
     }
 
     img {
+      min-width:  80vw;
       min-height: 80vw;
-      min-width: 80vw;
     }
 	}
 </style>

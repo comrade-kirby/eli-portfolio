@@ -1,11 +1,10 @@
-<a href='/'>
-</a>
+<a href='/'></a>
 
 <style>
   a {
+    width:  150px;
     height: 150px;
-    width: 150px;
-    background-color: var(--red);
     margin: var(--medium);
+    background-color: var(--red);
   }
 </style>
