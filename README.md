@@ -87,3 +87,9 @@ all projects should have the following format:
 5. Write a short message to describe the changes in the "Message" input at the top of the pane.
 6. Press `command` + `Enter` to commit changes
 7. Select "push" from the `...` dropdown at the top of the pane to push changes to github.
+
+
+#### Troubleshooting
+- clear browser cache and hard reload
+- in chrome try `option` + `cmd` + `i` to pull up the console and look for errors
+- quit and restart the server: `cmd` + `c` and then `npm run dev`
