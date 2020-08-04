@@ -45,7 +45,7 @@
 
   @media screen and (max-width: 600px) {
     .dropdown-button {
-      font-size: var(--small-font);
+      font-size: var(--tiny-font);
       padding: var(--tiny-spacing);
     }
   }

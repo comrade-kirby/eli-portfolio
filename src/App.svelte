@@ -43,7 +43,7 @@
 {/if}
 
 <style>
-	:global(body) {
+	:global(html) {
 		--tiny-spacing:       8px;
 		--small-spacing:      12px;
 		--medium-spacing:     20px;
@@ -88,9 +88,7 @@
 	}
 
 	main {
-		margin-right:  calc(2 * var(--gargantuan-spacing));
-    margin-bottom: calc(2 * var(--gargantuan-spacing));
-    margin-left:   calc(150px + (2 * var(--medium-spacing)));
+    padding-right: 32px;
 	}
 
 	:global(button) {
@@ -113,14 +111,12 @@
 
 	@media screen and (max-width: 1400px) {
 		main {
-			margin-right:  var(--gargantuan-spacing);
 			margin-bottom: var(--gargantuan-spacing);
 		}
 	}
 
 	@media screen and (max-width: 1000px) {
 		main {
-			margin:        var(--medium-spacing);
 			margin-bottom: var(--huge-spacing);
 		}
 	}
@@ -132,6 +128,10 @@
 
 		:global(p) {
 			font-size: var(--small-font);
+		}
+
+    main {
+			padding-right: unset;
 		}
 	}
 </style>

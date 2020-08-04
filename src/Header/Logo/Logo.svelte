@@ -13,4 +13,10 @@
     object-fit: contain;
     margin-top: -10px;
   }
+
+  @media screen and (max-width: 600px) {
+    img {
+      max-width: 80px;
+    }
+  }
 </style>

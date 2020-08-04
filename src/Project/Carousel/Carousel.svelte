@@ -37,7 +37,7 @@
     const nextMedia = direction == 'previous' 
       ? currentMedia.previous 
       : currentMedia.next
-    const targets = 'img'
+    const targets = '.carousel-image'
 
     anime({
       targets,

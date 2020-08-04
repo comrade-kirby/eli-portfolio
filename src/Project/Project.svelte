@@ -27,10 +27,11 @@
     flex-direction:  column;
     justify-content: flex-end;
     align-items:     flex-end;
+    padding: var(--medium-spacing);
   }
 
   .project-name {
-    margin-top: calc(-1 * var(--huge-spacing));
+    margin-top: calc(-1 * var(--medium-spacing));
   }  
 
   .project-description {
@@ -44,21 +45,6 @@
 
     .project-name {
       align-self: flex-end;
-      margin-right: var(--large-spacing);
-    }
-
-    .project-description {
-      margin-right: var(--large-spacing);
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .project-name {
-      margin-right: unset;
-    }
-
-    .project-description {
-      margin-right: unset;
     }
   }
 </style>

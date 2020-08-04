@@ -3,9 +3,9 @@
 </script>
 
 <div class='carousel-content' >
-  <img src={currentMedia.previous.url}  alt={currentMedia.previous.altText}/>
-  <img src={currentMedia.url}  alt={currentMedia.altText}/>
-  <img src={currentMedia.next.url}  alt={currentMedia.next.altText}/>
+  <img class='carousel-image' src={currentMedia.previous.url}  alt={currentMedia.previous.altText}/>
+  <img class='carousel-image' src={currentMedia.url}  alt={currentMedia.altText}/>
+  <img class='carousel-image' src={currentMedia.next.url}  alt={currentMedia.next.altText}/>
 </div>
 
 <style>

@@ -16,12 +16,10 @@
     flex-direction: row;
     align-items:    center;
     align-self: flex-start;
-    margin-right: var(--huge-spacing);
   }
 
   .nav-button {
     position: relative;
-    padding: var(--medium);
     background: transparent;
     font-size: var(--small-font);
     font-weight: 700;
@@ -30,20 +28,9 @@
     z-index: 1;
   }
 
-  @media screen and (max-width: 1400px) {
-    nav {
-      margin-right: var(--small-spacing);
-    }
-  }
-
   @media screen and (max-width: 600px) {
-
-    nav {
-      margin-right: unset;
-    }
-
     .nav-button {
-      font-size: var(--small-font);
+      font-size: var(--tiny-font);
       padding: var(--tiny-spacing);
     }
   }
