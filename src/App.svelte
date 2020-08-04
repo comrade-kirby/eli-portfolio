@@ -52,8 +52,8 @@
 		--gargantuan: 5rem;
 
 		--black: hsl(245, 15%, 20%);
-		--white: hsla(245, 50%, 99%, 95%);
-		--red: hsl(0, 100%, 45%);
+		--white: rgb(255, 253, 243);
+		--yellow: #ebc800;
 
 		--translucent-white: hsla(0, 0%, 100%, 90%);
 		--translucent-grey: hsla(0, 0%, 96%, 90%);
@@ -65,8 +65,9 @@
 	:global(*) {
 		padding: 0;
 		margin: 0;
-		font-family: 'Quicksand', sans-serif;
+		font-family: 'Arial', sans-serif;
 		color: var(--black);
+		background-color: var(--white);
 	}
 
 	:global(a) {
@@ -76,7 +77,7 @@
 	}
 
 	:global(a:hover) {
-		color: var(--red);
+		color: var(--yellow);
 	}
 
 	main {

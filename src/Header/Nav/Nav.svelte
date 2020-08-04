@@ -23,7 +23,7 @@
     position: relative;
     padding: var(--medium);
     background: transparent;
-    font-size: var(--medium);
+    font-size: var(--small);
     font-weight: 700;
     z-index: 1;
   }

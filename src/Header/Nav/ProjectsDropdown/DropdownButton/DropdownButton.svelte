@@ -25,7 +25,7 @@
     border: none;
     color: var(--black);
     background: transparent;
-    font-size: var(--medium);
+    font-size: var(--small);
     font-weight: 700;
     padding: var(--medium);
     cursor: pointer;

@@ -1,11 +1,17 @@
 <a href='/'>
+  <img src='/newlogo3-01.png' alt='eli logo'/>
 </a>
 
 <style>
   a {
-    height: 150px;
-    width: 150px;
-    background-color: var(--red);
     margin: var(--medium);
+  }
+
+  img {
+    max-width: 150px;
+    object-fit: contain;
+    margin-top: -10px;
+
+  
   }
 </style>
