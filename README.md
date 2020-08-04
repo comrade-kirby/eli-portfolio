@@ -7,7 +7,7 @@
 > the `code` command allows you to open files and folders from the terminal
 
 #### Terminal 
-1. `$ cd Desktop/websitematerial` to move to your documents folder
+1. `$ cd ~/Desktop/websitematerial` to move to your documents folder
 2. `$ git clone git@github.com:OppNHeimer/eli-portfolio.git` to download the project folder
 3. `$ git checkout eli` to switch to your branch
 4. `$npm install` to install dependencies
@@ -15,7 +15,7 @@
 
 ## Run project locally
 In terminal:
-1. `$ cd Desktop/websitematerial/eli-portfolio` to move into the project folder
+1. `$ cd ~/Desktop/websitematerial/eli-portfolio` to move into the project folder
 2. `$ git checkout eli` to switch to your branch
 3. `$ git pull` to pull any changes from github
 4. `$ npm install` to install any new dependencies
@@ -31,7 +31,7 @@ Go to `http://localhost:5000/` to view the project in a web browser
 
 #### Opening the project
 In a new terminal window if your server is already running:
-1. `$ cd Desktop/websitematerial/eli-portfolio` to move into the project folder
+1. `$ cd ~/Desktop/websitematerial/eli-portfolio` to move into the project folder
 2. `$ code .` to open the project in VSCode 
 
 > or open from VSCode
