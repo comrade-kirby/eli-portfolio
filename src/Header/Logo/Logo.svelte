@@ -4,7 +4,7 @@
 
 <style>
   a {
-    margin: var(--medium);
+    margin: var(--medium-spacing);
     background-color: var(--red);
   }
 
@@ -12,7 +12,5 @@
     max-width: 150px;
     object-fit: contain;
     margin-top: -10px;
-
-  
   }
 </style>
