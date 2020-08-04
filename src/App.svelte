@@ -51,15 +51,15 @@
 		--huge: 3rem;
 		--gargantuan: 5rem;
 
-		--black: hsl(245, 15%, 20%);
+		--black: rgb(45, 43, 59);
 		--white: rgb(255, 253, 243);
-		--yellow: #ebc800;
-
-		--translucent-white: hsla(0, 0%, 100%, 90%);
-		--translucent-grey: hsla(0, 0%, 96%, 90%);
+		--yellow: rgb(235, 200, 0);
+		--yellow-grey: rgb(250, 248, 240);
+		--translucent-white: hsla(50, 100%, 98%, 90%);
 
 		max-width: 1200px;
 		margin: auto;
+		background-color: var(--white);
 	}
 
 	:global(*) {
@@ -67,7 +67,6 @@
 		margin: 0;
 		font-family: 'Arial', sans-serif;
 		color: var(--black);
-		background-color: var(--white);
 	}
 
 	:global(a) {
