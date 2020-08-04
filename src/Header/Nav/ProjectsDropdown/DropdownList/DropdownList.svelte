@@ -44,7 +44,7 @@
   a {
     font-size: var(--small-font);
     background-color: var(--translucent-white);
-    padding: var(--tiny-spacing) var(--medium-spacing);
+    padding: var(--small-spacing) var(--medium-spacing);
     z-index: 2;
   }
 

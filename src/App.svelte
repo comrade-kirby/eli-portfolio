@@ -45,7 +45,7 @@
 <style>
 	:global(body) {
 		--tiny-spacing:       8px;
-		--small-spacing:      16px;
+		--small-spacing:      12px;
 		--medium-spacing:     20px;
 		--large-spacing:      32px;
 		--huge-spacing:       48px;
