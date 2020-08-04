@@ -58,19 +58,21 @@
 		--huge-font:       3rem;
 		--gargantuan-font: 5rem;
 
-		--black: hsl(245, 15%, 20%);
-		--white: hsla(245, 50%, 99%, 95%);
-		--red:   hsl(0, 100%, 45%);
-		--translucent-white: hsla(0, 0%, 100%, 90%);
-		--translucent-grey:  hsla(0, 0%, 96%, 90%);
+		--black: rgb(45, 43, 59);
+		--white: rgb(255, 253, 243);
+		--yellow: rgb(235, 200, 0);
+		--yellow-grey: rgb(250, 248, 240);
+		--translucent-white: hsla(50, 100%, 98%, 90%);
 
 		margin: auto;
 		max-width: 1200px;
+		background-color: var(--white);
 	}
 
 	:global(*) {
 		padding: 0;
 		margin: 0;
+		font-family: 'Arial', sans-serif;
 		color: var(--black);
 		font-family: 'Quicksand', sans-serif;
 	}
@@ -82,7 +84,7 @@
 	}
 
 	:global(a:hover) {
-		color: var(--red);
+		color: var(--yellow);
 	}
 
 	main {

@@ -21,6 +21,9 @@
 
   .nav-button {
     position: relative;
+    padding: var(--medium);
+    background: transparent;
+    font-size: var(--small);
     font-weight: 700;
     font-size: var(--medium-font);
     padding: var(--medium-spacing);

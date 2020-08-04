@@ -50,8 +50,8 @@
   }
 
   circle:hover {
-    fill:   var(--red);
-    stroke: var(--red);
+    fill: var(--yellow);
+    stroke: var(--yellow);
   }
 
   .active circle {

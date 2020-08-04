@@ -28,7 +28,7 @@
   }
 
   .button:hover i {
-    color: var(--red);
+    color: var(--yellow);
   }
 
   @media screen and (max-width: 600px) {

@@ -40,7 +40,7 @@
   }
 
   .projects-dropdown:hover {
-    background: var(--translucent-grey);
+    background: var(--yellow-grey);
   }
 
   .click-screen {

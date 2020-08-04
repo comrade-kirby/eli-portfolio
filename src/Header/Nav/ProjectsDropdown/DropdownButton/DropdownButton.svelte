@@ -22,6 +22,10 @@
   .dropdown-button {
     display:     flex;
     align-items: center;
+    border: none;
+    color: var(--black);
+    background: transparent;
+    font-size: var(--small);
     font-weight: 700;
     color:       var(--black);
     font-size:   var(--medium-font);
