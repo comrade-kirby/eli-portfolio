@@ -23,9 +23,8 @@
     position: relative;
     padding: var(--medium);
     background: transparent;
-    font-size: var(--small);
+    font-size: var(--small-font);
     font-weight: 700;
-    font-size: var(--medium-font);
     padding: var(--medium-spacing);
     background: transparent;
     z-index: 1;

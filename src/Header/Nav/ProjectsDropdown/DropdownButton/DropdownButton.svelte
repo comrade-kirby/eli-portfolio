@@ -25,10 +25,9 @@
     border: none;
     color: var(--black);
     background: transparent;
-    font-size: var(--small);
+    font-size: var(--small-font);
     font-weight: 700;
     color:       var(--black);
-    font-size:   var(--medium-font);
     cursor: pointer;
     border: none;
     background: transparent;
