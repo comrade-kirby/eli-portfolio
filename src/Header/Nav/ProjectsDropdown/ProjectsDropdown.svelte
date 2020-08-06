@@ -5,21 +5,24 @@
   export let projects
 
   let height
+  let hoverEnabled = true
   let open = false
 
   const toggleOpen = () => open = !open
-  const openList = () => open = true
-  const closeList = () => open = false
+  const openList = () => { if (hoverEnabled) { open = true } }
+  const closeList = () => open = false 
+  const disableHover = () => hoverEnabled = false
 </script>
 
 <div 
   class='projects-dropdown' 
   bind:clientHeight={height}
-  on:mouseenter={openList}
+  on:mouseenter|stopPropagation={openList}
   on:mouseleave={closeList}>
   <DropdownButton 
     open={open}
-    toggleOpen={toggleOpen} />
+    toggleOpen={toggleOpen} 
+    disableHover={disableHover} />
   {#if open}
     <DropdownList 
       projects={projects} 

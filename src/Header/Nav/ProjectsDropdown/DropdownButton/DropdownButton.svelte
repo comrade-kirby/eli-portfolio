@@ -1,6 +1,7 @@
 <script>
-  export let toggleOpen
   export let open
+  export let toggleOpen
+  export let disableHover
 
   let rotation = 180
 
@@ -12,6 +13,7 @@
 <button 
   class:open
   class='dropdown-button'
+  on:touchstart={disableHover}
   on:click={toggleOpen}
   style='--degrees:{rotation}deg'>
   PROJECTS

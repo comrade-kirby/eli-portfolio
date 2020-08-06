@@ -39,7 +39,6 @@
     min-width:  100%;
     min-height: 100%;
     position: absolute;
-    padding: 0 50px;
     margin-bottom: 150px;
     align-self: center;
   }
