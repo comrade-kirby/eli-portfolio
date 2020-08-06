@@ -4,10 +4,11 @@
   import CarouselContent from './CarouselContent/CarouselContent.svelte'
   import CarouselButton from './CarouselButton/CarouselButton.svelte'
   import ProgressIndicator from './ProgressIndicator/ProgressIndicator.svelte'
+  import SwipeDetect from './SwipeDetect/SwipeDetect.svelte'
 
   export let mediae
 
-  let currentMedia, height
+  let currentMedia, height, hover
   
   const linkMediae = (mediae) => {
     if (mediae.length) {
@@ -62,25 +63,31 @@
 
 
 {#if mediae.length}
-  <div class='carousel-container'>
+  <div class='carousel-container'
+    on:mouseenter={() => hover = true}
+    on:mouseleave={() => hover = false}>
     <div class='carousel' bind:clientHeight={height}>
       <CarouselButton 
         slide={slide}
+        hover={hover}
         direction='previous' />  
       <CarouselContent currentMedia={currentMedia} />
       <CarouselButton 
         slide={slide}
+        hover={hover}
         direction='next' />  
     </div>
     <ProgressIndicator 
       mediaeCount={mediae.length} 
       currentIndex={currentMedia.index}
       jumpTo={jumpTo} />
+    <SwipeDetect slide={slide} />
   </div>
 {/if}
 
 <style>
   .carousel-container {
+    position: relative;
     display:         flex;
     flex-direction:  column;
     justify-content: center;
