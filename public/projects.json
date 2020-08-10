@@ -34,7 +34,9 @@
     "name": "2020 CALENDAR",
     "homePrimary": "/project_content/2020_calendar/home/2020-cal-gif.gif",
     "homeSecondary": "/project_content/2020_calendar/home/2020.png",
-    "projectCopy": [],
+    "projectCopy": [
+      "Since 2018, I have worked with designer Chris Stone to create a calendar for the following year. For 2020, my illustrations focused on a single room and the way our possessions change throughout the year. You pick up a hobby, get a new piece of furniture, watch your plants grow, it is amazing to see how much can change in one year in one room. The calendar was illustrated and designed by me, while Chris printed the calendar through risograph and bound the book as a spiral notebook. "
+    ],
     "projectMediae": []
   },
   "bleach_day": {
@@ -62,7 +64,8 @@
     "homePrimary": "/project_content/cresco/home/cresco_copy.png",
     "homeSecondary": "/project_content/cresco/home/cresco.png",
     "projectCopy": [
-      "Cresco Labs, a leading cannabis company located in Chicago, IL, reached out to me in 2019 to create a promotional t-shirt design for St. Patrick’s Day. As a cannabis company, Cresco Labs is very familiar with the typical associations made with cannabis and, with an older demographic, they were looking for a clever design that their clientele would proudly wear on St. Patrick’s Day and beyond. The t-shirt was sent out to medicinal dispensaries around the country and given to Cresco’s loyal customers on St. Patrick’s Day."
+      "Cresco Labs, a leading cannabis company located in Chicago, IL, reached out to me in 2019 to create a promotional t-shirt design for St. Patrick’s Day. As a cannabis company, Cresco Labs is very familiar with the typical associations made with cannabis and, with an older demographic, they were looking for a clever design that their clientele would proudly wear on St. Patrick’s Day and beyond. The t-shirt was sent out to medicinal dispensaries around the country and given to Cresco’s loyal customers on St. Patrick’s Day.",
+      "Included here is the selected design and other options that were presented."
     ],
     "projectMediae": [
       {"url": "/project_content/cresco/project/CrescoTShirt.png",
@@ -83,15 +86,21 @@
     "name": "EG POTTERY",
     "homePrimary": "/project_content/eg_pottery/home/finals_logo_finals.png",
     "homeSecondary": "/project_content/eg_pottery/home/eg_pottery.png",
-    "projectCopy": [],
-    "projectMediae": []
+    "projectCopy": [
+      "Eg Pottery is the Portland, OR-based business of potter Elana Grabel."
+    ],
+    "projectMediae": [
+      {"url": "/project_content/eg_pottery/project/FINALS_LOGO_FINAL.png",
+        "altText": "Eg Pottery logo"
+      }
+    ]
   },
   "hope_all_is_well_presents": {
     "name": "HOPE ALL IS WELL PRESENTS...",
     "homePrimary": "/project_content/hope_all_is_well_presents/home/hope_all_is_well.png",
     "homeSecondary": "/project_content/hope_all_is_well_presents/home/hope_all.png",
     "projectCopy": [
-      "In Burlington, VT, Hope All is Well looked to fill the space between house shows and the bigger theaters that exist in a small, college town. Their shows focused on up-and-coming artists, both musically and visually. I primarily created GIFs for the group's Instagram to promote shows they put together. Additionally, I created a printed posters that were distributed throughout Burlington."
+      "Burlington, VT-based Hope All is Well looks to fill the space between house shows and the bigger theaters that exist in a small, college town. Their shows focused on up-and-coming artists, both musically and visually. I created GIFs and posters for the group to promote the shows they put together throughout Burlington."
     ],
     "projectMediae": [
       {"url": "/project_content/hope_all_is_well_presents/project/topsflyer.jpg",
@@ -171,10 +180,10 @@
       {"url": "/project_content/j_bengoy/project/JBengoyTShirt.png",
         "altText": "J Bengoy t-shirt with illustration"
       },
-      {"url": "/project_content/j_bengoy/project/SoGoodICouldDieiPhone.png",
+      {"url": "/project_content/j_bengoy/project/SoGoodICouldDiesingle.jpgg",
         "altText": "So Good (I Could I Die) single cover on Spotify"
       },
-      {"url": "/project_content/j_bengoy/project/RepriseiPhone.png",
+      {"url": "/project_content/j_bengoy/project/Reprisesingle.jpg",
         "altText": "Reprise (Marthasville) single cover on Spotify"
       }
     ]
@@ -275,14 +284,40 @@
     "name": "PSYCHE",
     "homePrimary": "/project_content/psyche/home/psyche_logo.png",
     "homeSecondary": "/project_content/psyche/home/psyche.png",
-    "projectCopy": [],
-    "projectMediae": []
+    "projectCopy": [
+      "Psyche Design Lab is a project created by Chris Stone that combines sustainability, outdoor gear, and vintage goods. Utilizing materials, from vintage Columbia jackets to Adidas tracksuits to old military-issued duffel bags, Psyche turns thrift finds into one-of-a-kind bags and accessories.",
+      "With a focus on vintage goods, and specifically the track jackets of the 80s, I looked to create a logo with bright colors and a retro type."
+    ],
+    "projectMediae": [
+      
+    ]
   },
   "thalia_hall": {
     "name": "THALIA HALL",
     "homePrimary": "/project_content/thalia_hall/home/thalia.png",
     "homeSecondary": "/project_content/thalia_hall/home/test.png",
-    "projectCopy": [],
-    "projectMediae": []
+    "projectCopy": [
+      "Re-establishing in 2013, the 16 on Center property Thalia Hall has been a staple of the Chicago music scene. My role in this project was to create the brand assets and templates that are essential to the everyday marketing needs of the venue, ranging from digital advertisements to printed posters for inside and outside the venue.",
+      "This brand refresh project allowed the property to maintain its established brand while adding some character through a secondary type and burst of color. Continuing to build off a type-heavy brand, the new design presented a clean, modern sensibility while highlighting the eclectic range of acts that grace the stage."
+    ],
+    "projectMediae": [
+      {"url": "/project_content/thalia_hall/project/LongSleeveThalia.png",
+        "altText": "Long Sleeve Thalia Hall logo tee"
+      },
+      {"url": "/project_content/thalia_hall/project/Pitchfork_Ad.gif",
+        "altText": "Digital Ad for Thalia Hall"
+      },
+      {"url": "/project_content/thalia_hall/project/IGS_TH.gif",
+        "altText": "Instagram Story template"
+      },
+      {"url": "/project_content/thalia_hall/project/3.18_Street Team.pdf",
+        "altText": "Printed Biweekly Street Team Poster"
+      },
+      {"url": "/project_content/thalia_hall/project/ShortSleeveThalia.png",
+        "altText": "Short Sleeve tee"
+      },
+      {"url": "/project_content/thalia_hall/project/TH_MUG.png",
+        "altText": "Thalia Hall Holiday Mug"
+      },
+    ]
   }
-}
