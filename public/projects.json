@@ -99,7 +99,20 @@
     "homePrimary": "/project_content/zok_productions/home/zok_productions_splash-01.png",
     "homeSecondary": "/project_content/zok_productions/home/zok_sticker.png",
     "projectCopy": [],
-    "projectMediae": []
+    "projectMediae": [
+      { 
+        "url": "/project_content/zok_productions/project/zok_jif.gif",
+        "altText": "ZOK video productions intro"
+      },
+      { 
+        "url": "/project_content/zok_productions/project/FINALS_LOGO_LOCKUP.png",
+        "altText": "Zok production lock-up"
+      },
+      { 
+        "url": "/project_content/zok_productions/project/FINALS_CAMERA_ALTERNATIVE.png",
+        "altText": "Zok production alternative logo"
+      }
+    ]
   },
   "bleach_day": {
     "name": "BLEACH DAY",
@@ -182,7 +195,11 @@
     "homePrimary": "/project_content/pbr_jim_beam/home/PBR-01.png",
     "homeSecondary": "/project_content/pbr_jim_beam/home/pbrjb.png",
     "projectCopy": [],
-    "projectMediae": []
+    "projectMediae": [
+      {"url": "/public/project_content/psyche/COMING_SOON-01.png",
+        "altText": "Coming Soon"
+      }
+    ]
   },
   "interdigital_2018": {
     "name": "INTERDIGITAL 2018",
