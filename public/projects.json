@@ -30,12 +30,25 @@
       }
     ]
   },
-  "2020_calendar": {
-    "name": "2020 CALENDAR",
-    "homePrimary": "/project_content/2020_calendar/home/2020-cal-gif.gif",
-    "homeSecondary": "/project_content/2020_calendar/home/2020.png",
+  "slumber_mag": {
+    "name": "Slumber Mag",
+    "homePrimary": "/project_content/slumber_mag/home/slumbermag-01.png",
+    "homeSecondary": "/project_content/slumber_mag/home/slumbermagsticker.png",
     "projectCopy": [],
-    "projectMediae": []
+    "projectMediae": [
+      { 
+        "url": "/project_content/slumber_mag/project/slumbermag_twoweeks.gif",
+        "altText": "Two weeks - Slumber Mag Countdown"
+      },
+      { 
+        "url": "/project_content/slumber_mag/project/slumbermag_oneweek.gif",
+        "altText": "One week - Slumber Mag Countdown"
+      },
+      { 
+        "url": "/project_content/slumber_mag/project/slumbermag_twentyfourhours.gif",
+        "altText": "Twenty Four Hours - Slumber Mag Countdown"
+      }
+    ]
   },
   "bleach_day": {
     "name": "BLEACH DAY",
@@ -316,6 +329,7 @@
       },
       {"url": "/project_content/thalia_hall/project/TH_MUG.png",
         "altText": "Thalia Hall Holiday Mug"
-      },
+      }
     ]
   }
+}
