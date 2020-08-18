@@ -1,6 +1,6 @@
 {
   "interdigital_2019": {
-    "name": "INTERDIGITAL 2019",
+    "name": "INTERDIGITAL, INC. 2019",
     "homePrimary": "/project_content/interdigital_2019/home/interdigital_2019-01.png",
     "homeSecondary": "/project_content/interdigital_2019/home/interdigital_2019_sticker.png",
     "projectCopy": [
@@ -23,7 +23,7 @@
     ]
   },
   "slumber_mag": {
-    "name": "Slumber Mag",
+    "name": "SLUMBER MAG",
     "homePrimary": "/project_content/slumber_mag/home/slumbermag-01.png",
     "homeSecondary": "/project_content/slumber_mag/home/slumbermagsticker.png",
     "projectCopy": [],
@@ -135,7 +135,7 @@
     ]
   },
   "16_on_center": {
-    "name": "16 ON CENTER",
+    "name": "16 ON CENTER CHICAGO",
     "homePrimary": "/project_content/16_on_center/home/16onc2-01-01.png",
     "homeSecondary": "/project_content/16_on_center/home/16onc.png",
     "projectCopy": [
@@ -196,13 +196,13 @@
     "homeSecondary": "/project_content/pbr_jim_beam/home/pbrjb.png",
     "projectCopy": [],
     "projectMediae": [
-      {"url": "/public/project_content/psyche/COMING_SOON-01.png",
+      {"url": "/project_content/psyche/COMING_SOON-01.png",
         "altText": "Coming Soon"
       }
     ]
   },
   "interdigital_2018": {
-    "name": "INTERDIGITAL 2018",
+    "name": "INTERDIGITAL,INC. 2018",
     "homePrimary": "/project_content/interdigital_2018/home/id2018-01.png",
     "homeSecondary": "project_content/interdigital_2018/home/interdigital_2018_sticker.png",
     "projectCopy": [
@@ -227,7 +227,7 @@
     ]
   },
   "groovy_tuna": {
-    "name": "GROOVY TUNA",
+    "name": "GROOVY TUNA GOODS",
     "homePrimary": "/project_content/groovy_tuna/home/GroovyTunaSplash.png",
     "homeSecondary": "/project_content/groovy_tuna/home/GroovyTunaSticker.png",
     "projectCopy": [
@@ -305,7 +305,7 @@
     ]
   },
   "psyche": {
-    "name": "PSYCHE",
+    "name": "PSYCHE DESIGN LAB",
     "homePrimary": "/project_content/psyche/home/psyche_logo-01.png",
     "homeSecondary": "/project_content/psyche/home/psyche.png",
     "projectCopy": [
@@ -313,7 +313,7 @@
       "With a focus on vintage goods, and specifically the track jackets of the 80s, I looked to create a logo with bright colors and a retro type."
     ],
     "projectMediae": [
-      {"url": "/public/project_content/psyche/COMING_SOON-01.png",
+      {"url": "/project_content/psyche/COMING_SOON-01.png",
         "altText": "Coming Soon"
       }
     ]
@@ -324,7 +324,7 @@
     "homeSecondary": "/project_content/max_oppenheimer/home/max_oppenheimer.png",
     "projectCopy": [],
     "projectMediae": [
-      {"url": "/public/project_content/psyche/COMING_SOON-01.png",
+      {"url": "/project_content/psyche/COMING_SOON-01.png",
         "altText": "Coming Soon"
       }
     ]
