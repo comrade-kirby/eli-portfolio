@@ -1,7 +1,142 @@
 {
+  "interdigital_2019": {
+    "name": "INTERDIGITAL, INC. 2019",
+    "homePrimary": "/project_content/interdigital_2019/home/interdigital_2019-01.png",
+    "homeSecondary": "/project_content/interdigital_2019/home/interdigital_2019_sticker.png",
+    "projectCopy": [
+      "I had the privilege to create the annual reports for wireless and video technology company InterDigtial, Inc. in 2019 and 2020. The 2019 Annual Report created for the 2020 InterDigital, Inc. Shareholder Meeting focused on the company’s initiative to highlight the experience that their products facilitate.",
+      "The chosen photography and design looked to emphasize how their technology brings people together, whether it is through 5G wireless or virtual reality experiences and everything else in between. The visual identity of the report was inspired by the strong, vibrant colors of InterDigtial’s brand, while using a grid design that referenced the 2018 report I created but placed more focus on the interactions within the photos."
+    ],
+    "projectMediae": [
+      {"url": "/project_content/interdigital_2019/project/interdigital 2019.png",
+        "altText": "InterDigital, Inc. 2019 Annual Report front and back"
+      },
+      {"url": "/project_content/interdigital_2019/project/pg 2-3 2019.png",
+        "altText": "InterDigital, Inc. 2019 Annual Report page 2-3 spread"
+      },
+      {"url": "/project_content/interdigital_2019/project/pg 4-5.png",
+        "altText": "InterDigital, Inc. 2019 Annual Report page 4-5 spread"
+      },
+      {"url": "/project_content/interdigital_2019/project/pg 6-7.png",
+        "altText": "InterDigital, Inc. 2019 Annual Report page 6-7 spread"
+      }
+    ]
+  },
+  "slumber_mag": {
+    "name": "SLUMBER MAG",
+    "homePrimary": "/project_content/slumber_mag/home/slumbermag-01.png",
+    "homeSecondary": "/project_content/slumber_mag/home/slumbermagsticker.png",
+    "projectCopy": [],
+    "projectMediae": [
+      { 
+        "url": "/project_content/slumber_mag/project/slumbermag_twoweeks.gif",
+        "altText": "Two weeks - Slumber Mag Countdown"
+      },
+      { 
+        "url": "/project_content/slumber_mag/project/slumbermag_oneweek.gif",
+        "altText": "One week - Slumber Mag Countdown"
+      },
+      { 
+        "url": "/project_content/slumber_mag/project/slumbermag_twentyfourhours.gif",
+        "altText": "Twenty Four Hours - Slumber Mag Countdown"
+      }
+    ]
+  },
+  "thalia_hall": {
+    "name": "THALIA HALL",
+    "homePrimary": "/project_content/thalia_hall/home/thalia-01.png",
+    "homeSecondary": "/project_content/thalia_hall/home/test.png",
+    "projectCopy": [
+      "Re-establishing in 2013, the 16 on Center property Thalia Hall has been a staple of the Chicago music scene. My role in this project was to create the brand assets and templates that are essential to the everyday marketing needs of the venue, ranging from digital advertisements to printed posters for inside and outside the venue.",
+      "This brand refresh project allowed the property to maintain its established brand while adding some character through a secondary type and burst of color. Continuing to build off a type-heavy brand, the new design presented a clean, modern sensibility while highlighting the eclectic range of acts that grace the stage."
+    ],
+    "projectMediae": [
+      {"url": "/project_content/thalia_hall/project/LongSleeveThalia.png",
+        "altText": "Long Sleeve Thalia Hall logo tee"
+      },
+      {"url": "/project_content/thalia_hall/project/Pitchfork_Ad.gif",
+        "altText": "Digital Ad for Thalia Hall"
+      },
+      {"url": "/project_content/thalia_hall/project/IGS_TH.gif",
+        "altText": "Instagram Story template"
+      },
+      {"url": "/project_content/thalia_hall/project/3.18_Street Team.pdf",
+        "altText": "Printed Biweekly Street Team Poster"
+      },
+      {"url": "/project_content/thalia_hall/project/ShortSleeveThalia.png",
+        "altText": "Short Sleeve tee"
+      },
+      {"url": "/project_content/thalia_hall/project/TH_MUG.png",
+        "altText": "Thalia Hall Holiday Mug"
+      }
+    ]
+  },
+  "cresco": {
+    "name": "CRESCO LABS",
+    "homePrimary": "/project_content/cresco/home/cresco_splash-01.png",
+    "homeSecondary": "/project_content/cresco/home/cresco.png",
+    "projectCopy": [
+      "Cresco Labs, a leading cannabis company located in Chicago, IL, reached out to me in 2019 to create a promotional t-shirt design for St. Patrick’s Day. As a cannabis company, Cresco Labs is very familiar with the typical associations made with cannabis and, with an older demographic, they were looking for a clever design that their clientele would proudly wear on St. Patrick’s Day and beyond. The t-shirt was sent out to medicinal dispensaries around the country and given to Cresco’s loyal customers on St. Patrick’s Day.",
+      "Included here is the selected design and other options that were presented."
+    ],
+    "projectMediae": [
+      {"url": "/project_content/cresco/project/CrescoTShirt.png",
+        "altText": "Final design chosen for Cresco Labs' St Patrick's Day"
+      },
+      {"url": "/project_content/cresco/project/CrescoRejected.png",
+        "altText": "Proposed design for Cresco Labs' St Patrick's Day"
+      },
+      {"url": "/project_content/cresco/project/CrescoRejected2.png",
+        "altText": "Proposed design for Cresco Labs' St Patrick's Day"
+      },
+      {"url": "/project_content/cresco/project/CrescoRejecred3.png",
+        "altText": "Proposed design for Cresco Labs' St Patrick's Day"
+      }
+    ]
+  },
+  "zok_productions": {
+    "name": "ZOK PRODUCTIONS",
+    "homePrimary": "/project_content/zok_productions/home/zok_productions_splash-01.png",
+    "homeSecondary": "/project_content/zok_productions/home/zok_sticker.png",
+    "projectCopy": [],
+    "projectMediae": [
+      { 
+        "url": "/project_content/zok_productions/project/zok_jif.gif",
+        "altText": "ZOK video productions intro"
+      },
+      { 
+        "url": "/project_content/zok_productions/project/FINALS_LOGO_LOCKUP.png",
+        "altText": "Zok production lock-up"
+      },
+      { 
+        "url": "/project_content/zok_productions/project/FINALS_CAMERA_ALTERNATIVE.png",
+        "altText": "Zok production alternative logo"
+      }
+    ]
+  },
+  "bleach_day": {
+    "name": "BLEACH DAY",
+    "homePrimary": "/project_content/bleach_day/home/bleach_day-01.png",
+    "homeSecondary": "/project_content/bleach_day/home/bleach_day_stick.png",
+    "projectCopy": [
+      "\"Analog-obsessed\"-Burlington, VT band Bleach Day released their second album \"as if always\" and reached out for a t-shirt design. The group wanted an illustration that would tie in with the album's visual identity of flowers, goldfish, and nostalgia.",
+      "The two-color design was printed in Burlington, VT."
+    ],
+    "projectMediae": [
+      { 
+        "url": "/project_content/bleach_day/project/bleach_day-03.png",
+        "altText": "Bleach Day illustration with six televisions, flowers, and goldfish"
+      },
+      {
+        "url": "/project_content/bleach_day/project/BleachDayTShirt.png",
+        "altText": "T-shirt with Bleach Day illustration"
+      }
+
+    ]
+  },
   "16_on_center": {
-    "name": "16 ON CENTER",
-    "homePrimary": "/project_content/16_on_center/home/16onc2-01.png",
+    "name": "16 ON CENTER CHICAGO",
+    "homePrimary": "/project_content/16_on_center/home/16onc2-01-01.png",
     "homeSecondary": "/project_content/16_on_center/home/16onc.png",
     "projectCopy": [
       "Chicago’s 16 on Center is a hospitality group operating a wide range of restaurants and music venues, from the divey Empty Bottle to Michelin starred Dusek’s. As a graphic designer for the company, I worked within a variety of distinct identities to promote the group’s many events through primarily digital work.", 
@@ -30,68 +165,12 @@
       }
     ]
   },
-  "2020_calendar": {
-    "name": "2020 CALENDAR",
-    "homePrimary": "/project_content/2020_calendar/home/2020-cal-gif.gif",
-    "homeSecondary": "/project_content/2020_calendar/home/2020.png",
-    "projectCopy": [],
-    "projectMediae": []
-  },
-  "bleach_day": {
-    "name": "BLEACH DAY",
-    "homePrimary": "/project_content/bleach_day/home/bleach_day.png",
-    "homeSecondary": "/project_content/bleach_day/home/bleach_day_stick.png",
-    "projectCopy": [
-      "\"Analog-obsessed\"-Burlington, VT band Bleach Day released their second album \"as if always\" and reached out for a t-shirt design. The group wanted an illustration that would tie in with the album's visual identity of flowers, goldfish, and nostalgia.",
-      "The two-color design was printed in Burlington, VT."
-    ],
-    "projectMediae": [
-      { 
-        "url": "/project_content/bleach_day/project/bleach_day-03.png",
-        "altText": "Bleach Day illustration with six televisions, flowers, and goldfish"
-      },
-      {
-        "url": "/project_content/bleach_day/project/BleachDayTShirt.png",
-        "altText": "T-shirt with Bleach Day illustration"
-      }
-
-    ]
-  },
-  "cresco": {
-    "name": "CRESCO LABS",
-    "homePrimary": "/project_content/cresco/home/cresco_copy.png",
-    "homeSecondary": "/project_content/cresco/home/cresco.png",
-    "projectCopy": [
-      "Cresco Labs, a leading cannabis company located in Chicago, IL, reached out to me in 2019 to create a promotional t-shirt design for St. Patrick’s Day. As a cannabis company, Cresco Labs is very familiar with the typical associations made with cannabis and, with an older demographic, they were looking for a clever design that their clientele would proudly wear on St. Patrick’s Day and beyond. The t-shirt was sent out to medicinal dispensaries around the country and given to Cresco’s loyal customers on St. Patrick’s Day."
-    ],
-    "projectMediae": [
-      {"url": "/project_content/cresco/project/CrescoTShirt.png",
-        "altText": "Final design chosen for Cresco Labs' St Patrick's Day"
-      },
-      {"url": "/project_content/cresco/project/CrescoRejected.png",
-        "altText": "Proposed design for Cresco Labs' St Patrick's Day"
-      },
-      {"url": "/project_content/cresco/project/CrescoRejected2.png",
-        "altText": "Proposed design for Cresco Labs' St Patrick's Day"
-      },
-      {"url": "/project_content/cresco/project/CrescoRejecred3.png",
-        "altText": "Proposed design for Cresco Labs' St Patrick's Day"
-      }
-    ]
-  },
-  "eg_pottery": {
-    "name": "EG POTTERY",
-    "homePrimary": "/project_content/eg_pottery/home/finals_logo_finals.png",
-    "homeSecondary": "/project_content/eg_pottery/home/eg_pottery.png",
-    "projectCopy": [],
-    "projectMediae": []
-  },
   "hope_all_is_well_presents": {
     "name": "HOPE ALL IS WELL PRESENTS...",
-    "homePrimary": "/project_content/hope_all_is_well_presents/home/hope_all_is_well.png",
-    "homeSecondary": "/project_content/hope_all_is_well_presents/home/hope_all.png",
+    "homePrimary": "/project_content/hope_all_is_well_presents/home/hope_all_is_well-01-01.png",
+    "homeSecondary": "/project_content/hope_all_is_well_presents/home/hope all.png",
     "projectCopy": [
-      "In Burlington, VT, Hope All is Well looked to fill the space between house shows and the bigger theaters that exist in a small, college town. Their shows focused on up-and-coming artists, both musically and visually. I primarily created GIFs for the group's Instagram to promote shows they put together. Additionally, I created a printed posters that were distributed throughout Burlington."
+      "Burlington, VT-based Hope All is Well looks to fill the space between house shows and the bigger theaters that exist in a small, college town. Their shows focused on up-and-coming artists, both musically and visually. I created GIFs and posters for the group to promote the shows they put together throughout Burlington."
     ],
     "projectMediae": [
       {"url": "/project_content/hope_all_is_well_presents/project/topsflyer.jpg",
@@ -111,32 +190,20 @@
       }
     ]
   },
-  "interdigital_2019": {
-    "name": "INTERDIGITAL 2019",
-    "homePrimary": "/project_content/interdigital_2019/home/interdigital_2019.png",
-    "homeSecondary": "/project_content/interdigital_2019/home/interdigital_2019_sticker.png",
-    "projectCopy": [
-      "I had the privilege to create the annual reports for wireless and video technology company InterDigtial, Inc. in 2019 and 2020. The 2019 Annual Report created for the 2020 InterDigital, Inc. Shareholder Meeting focused on the company’s initiative to highlight the experience that their products facilitate.",
-      "The chosen photography and design looked to emphasize how their technology brings people together, whether it is through 5G wireless or virtual reality experiences and everything else in between. The visual identity of the report was inspired by the strong, vibrant colors of InterDigtial’s brand, while using a grid design that referenced the 2018 report I created but placed more focus on the interactions within the photos."
-    ],
+  "pbr_jim_beam": {
+    "name": "PBR & JIM BEAM",
+    "homePrimary": "/project_content/pbr_jim_beam/home/PBR-01.png",
+    "homeSecondary": "/project_content/pbr_jim_beam/home/pbrjb.png",
+    "projectCopy": [],
     "projectMediae": [
-      {"url": "/project_content/interdigital_2019/project/interdigital 2019.png",
-        "altText": "InterDigital, Inc. 2019 Annual Report front and back"
-      },
-      {"url": "/project_content/interdigital_2019/project/pg 2-3 2019.png",
-        "altText": "InterDigital, Inc. 2019 Annual Report page 2-3 spread"
-      },
-      {"url": "/project_content/interdigital_2019/project/pg 4-5.png",
-        "altText": "InterDigital, Inc. 2019 Annual Report page 4-5 spread"
-      },
-      {"url": "/project_content/interdigital_2019/project/pg 6-7.png",
-        "altText": "InterDigital, Inc. 2019 Annual Report page 6-7 spread"
+      {"url": "/project_content/psyche/COMING_SOON-01.png",
+        "altText": "Coming Soon"
       }
     ]
   },
   "interdigital_2018": {
-    "name": "INTERDIGITAL 2018",
-    "homePrimary": "/project_content/interdigital_2018/home/id2018.png",
+    "name": "INTERDIGITAL,INC. 2018",
+    "homePrimary": "/project_content/interdigital_2018/home/id2018-01.png",
     "homeSecondary": "project_content/interdigital_2018/home/interdigital_2018_sticker.png",
     "projectCopy": [
       "The 2018 Annual Report created for the 2019 InterDigtial, Inc. Shareholder Meeting focused on the company’s growth in 5G technology. The visual identity of the report was inspired by the way that 5G delivers data, and how it “silently floats” over our heads while enabling so much of our modern lives."
@@ -159,32 +226,33 @@
       }
     ]
   },
-  "j_bengoy": {
-    "name": "J BENGOY",
-    "homePrimary": "/project_content/j_bengoy/home/j_bengoy.png",
-    "homeSecondary": "/project_content/j_bengoy/home/j_b_stick.png",
-    "projectCopy": [],
+  "groovy_tuna": {
+    "name": "GROOVY TUNA GOODS",
+    "homePrimary": "/project_content/groovy_tuna/home/GroovyTunaSplash.png",
+    "homeSecondary": "/project_content/groovy_tuna/home/GroovyTunaSticker.png",
+    "projectCopy": [
+      "I was approached by Rachel Vogrich of Groovy Tuna Goods to create a brand identity for her custom-made jewelry and art business. The logo set includes social media icons and alternative logos to be used for stickers, t-shirts, and business cards."
+    ],
     "projectMediae": [
-      {"url": "/project_content/j_bengoy/project/DogwoodWinterAlbum.jpg",
-        "altText": "Dogwood Winter album cover"
+      {"url": "/project_content/groovy_tuna/project/FINAL-02.png",
+        "altText": "Arches logo for Groovy Tuna Goods"
       },
-      {"url": "/project_content/j_bengoy/project/JBengoyTShirt.png",
-        "altText": "J Bengoy t-shirt with illustration"
+      {"url": "/project_content/groovy_tuna/project/FINAL-07.png",
+        "altText": "Alternative logo"
       },
-      {"url": "/project_content/j_bengoy/project/SoGoodICouldDieiPhone.png",
-        "altText": "So Good (I Could I Die) single cover on Spotify"
+      {"url": "/project_content/groovy_tuna/project/FINAL-03.png",
+        "altText": "Circle logo"
       },
-      {"url": "/project_content/j_bengoy/project/RepriseiPhone.png",
-        "altText": "Reprise (Marthasville) single cover on Spotify"
+      {"url": "/project_content/groovy_tuna/project/GroovyTunaTshirt.png",
+        "altText": "Groovy Tuna Goods T-shirt"
+      },
+      {"url": "/project_content/groovy_tuna/project/Groovy Tuna Business Cards.png",
+        "altText": "Groovy Tuna Goods business cards"
+      },
+      {"url": "/project_content/groovy_tuna/project/Groovy Tuna Water Bottle.png",
+        "altText": "Groovy Tuna Goods sticker mockup"
       }
     ]
-  },
-  "max_oppenheimer": {
-    "name": "MAX OPPENHEIMER",
-    "homePrimary": "/project_content/max_oppenheimer/home/max_o.png",
-    "homeSecondary": "/project_content/max_oppenheimer/home/max_oppenheimer.png",
-    "projectCopy": [],
-    "projectMediae": []
   },
   "misc": {
     "name": "MISCELLANEOUS",
@@ -236,53 +304,49 @@
       }
     ]
   },
-  "groovy_tuna": {
-    "name": "GROOVY TUNA",
-    "homePrimary": "/project_content/groovy_tuna/home/GroovyTunaSplash.png",
-    "homeSecondary": "/project_content/groovy_tuna/home/GroovyTunaSticker.png",
+  "psyche": {
+    "name": "PSYCHE DESIGN LAB",
+    "homePrimary": "/project_content/psyche/home/psyche_logo-01.png",
+    "homeSecondary": "/project_content/psyche/home/psyche.png",
     "projectCopy": [
-      "I was approached by Rachel Vogrich of Groovy Tuna Goods to create a brand identity for her custom-made jewelry and art business. The logo set includes social media icons and alternative logos to be used for stickers, t-shirts, and business cards."
+      "Psyche Design Lab is a project created by Chris Stone that combines sustainability, outdoor gear, and vintage goods. Utilizing materials, from vintage Columbia jackets to Adidas tracksuits to old military-issued duffel bags, Psyche turns thrift finds into one-of-a-kind bags and accessories.",
+      "With a focus on vintage goods, and specifically the track jackets of the 80s, I looked to create a logo with bright colors and a retro type."
     ],
     "projectMediae": [
-      {"url": "/project_content/groovy_tuna/project/FINAL-02.png",
-        "altText": "Arches logo for Groovy Tuna Goods"
-      },
-      {"url": "/project_content/groovy_tuna/project/FINAL-07.png",
-        "altText": "Alternative logo"
-      },
-      {"url": "/project_content/groovy_tuna/project/FINAL-03.png",
-        "altText": "Circle logo"
-      },
-      {"url": "/project_content/groovy_tuna/project/GroovyTunaTshirt.png",
-        "altText": "Groovy Tuna Goods T-shirt"
-      },
-      {"url": "/project_content/groovy_tuna/project/Groovy Tuna Business Cards.png",
-        "altText": "Groovy Tuna Goods business cards"
-      },
-      {"url": "/project_content/groovy_tuna/project/Groovy Tuna Water Bottle.png",
-        "altText": "Groovy Tuna Goods sticker mockup"
+      {"url": "/project_content/psyche/COMING_SOON-01.png",
+        "altText": "Coming Soon"
       }
     ]
   },
-  "pbr_jim_beam": {
-    "name": "PBR & JIM BEAM",
-    "homePrimary": "/project_content/pbr_jim_beam/home/pbr.png",
-    "homeSecondary": "/project_content/pbr_jim_beam/home/pbrjb.png",
+  "max_oppenheimer": {
+    "name": "MAX OPPENHEIMER",
+    "homePrimary": "/project_content/max_oppenheimer/home/max_o.png",
+    "homeSecondary": "/project_content/max_oppenheimer/home/max_oppenheimer.png",
     "projectCopy": [],
-    "projectMediae": []
+    "projectMediae": [
+      {"url": "/project_content/psyche/COMING_SOON-01.png",
+        "altText": "Coming Soon"
+      }
+    ]
   },
-  "psyche": {
-    "name": "PSYCHE",
-    "homePrimary": "/project_content/psyche/home/psyche_logo.png",
-    "homeSecondary": "/project_content/psyche/home/psyche.png",
+  "j_bengoy": {
+    "name": "J BENGOY",
+    "homePrimary": "/project_content/j_bengoy/home/j_bengoy-01.png",
+    "homeSecondary": "/project_content/j_bengoy/home/j_b_stick.png",
     "projectCopy": [],
-    "projectMediae": []
-  },
-  "thalia_hall": {
-    "name": "THALIA HALL",
-    "homePrimary": "/project_content/thalia_hall/home/thalia.png",
-    "homeSecondary": "/project_content/thalia_hall/home/test.png",
-    "projectCopy": [],
-    "projectMediae": []
+    "projectMediae": [
+      {"url": "/project_content/j_bengoy/project/DogwoodWinterAlbum.jpg",
+        "altText": "Dogwood Winter album cover"
+      },
+      {"url": "/project_content/j_bengoy/project/JBengoyTShirt.png",
+        "altText": "J Bengoy t-shirt with illustration"
+      },
+      {"url": "/project_content/j_bengoy/project/SoGoodICouldDiesingle.jpgg",
+        "altText": "So Good (I Could I Die) single cover on Spotify"
+      },
+      {"url": "/project_content/j_bengoy/project/Reprisesingle.jpg",
+        "altText": "Reprise (Marthasville) single cover on Spotify"
+      }
+    ]
   }
 }
