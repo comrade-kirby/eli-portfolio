@@ -48,7 +48,7 @@
     z-index: 2;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
     a {
       font-size: var(--tiny-font);
       padding: var(--small-spacing) var(--small-spacing);

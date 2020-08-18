@@ -102,7 +102,7 @@
 	}
 
 	:global(p) {
-		font-size: var(--medium-font);
+		font-size: var(--small-font);
 		line-height: var(--large-spacing);
 		margin-bottom: var(--large-spacing);
 		text-align: justify;
@@ -121,13 +121,9 @@
 		}
 	}
 
-	@media screen and (max-width: 600px) {
+	@media screen and (max-width: 700px) {
 		:global(h1) {
 			font-size: var(--medium-font);
-		}
-
-		:global(p) {
-			font-size: var(--small-font);
 		}
 
     main {

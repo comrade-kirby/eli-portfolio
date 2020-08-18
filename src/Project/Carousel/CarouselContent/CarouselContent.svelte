@@ -13,18 +13,18 @@
     display:         flex;
     flex-direction:  row;
     justify-content: center;
-    width:  50vh;
-    height: 50vh;
+    width:  75vh;
+    height: 75vh;
     overflow: hidden;
   }
 
   img {
-    min-width:  50vh;
-    min-height: 50vh;
+    min-width:  75vh;
+    min-height: 75vh;
     object-fit: contain;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1000px) {
 		.carousel-content {
       width:  80vw;
       height: 80vw;

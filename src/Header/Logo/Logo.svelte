@@ -14,7 +14,7 @@
     margin-top: -10px;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
     img {
       max-width: 80px;
     }

@@ -1,6 +1,6 @@
 <script>
   export let slide
-  export let hover
+  export let hover 
   export let direction
   
   const icon = direction == 'previous' 
@@ -18,8 +18,6 @@
 
 <style>
   .button {
-    position: absolute;
-    right: 0;
     cursor: pointer;
     min-height: 100%;
     border: none;
@@ -28,12 +26,14 @@
     opacity: 0;
     visibility: hidden;
     z-index: 1;
+    margin-right: calc(-1 * var(--medium-spacing));
   }
 
   .left {
-    left: 0;
-    right: unset;
+    margin-left: calc(-1 * var(--medium-spacing));
+    margin-right: unset;
   }
+
   .hover {
     visibility: visible;
     opacity: 1;
@@ -43,14 +43,22 @@
     transition: color 0.2s ease-in;
     font-size: var(--gargantuan-font);
     color: black;
-    -webkit-text-stroke: 1px var(--white);
   }
 
   .button:hover i {
     color: var(--yellow);
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
+    .button {
+      margin-right: calc(-1 * var(--small-spacing));
+    }
+
+    .left {
+      margin-left: calc(-1 * var(--small-spacing));
+      margin-right: unset;
+    }
+    
     i {
       font-size: var(--huge-font);
     }
