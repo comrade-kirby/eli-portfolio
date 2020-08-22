@@ -7,13 +7,16 @@
 	import About from './About/About.svelte'
 	import Contact from './Contact/Contact.svelte'
 	import Project from './Project/Project.svelte'
-	import { projects } from './stores.js'
+	import { projects, baseUrl } from './stores.js'
 
 	let projectKey
 	let component = Home
 
 	const getProjects = async () => {
-		const response = await fetch('/projects.json')
+	const url = window.location.href 
+	baseUrl.set(url == 'http://localhost:5000/' ? '' : '/eli-portfolio')
+
+		const response = await fetch(`${$baseUrl}/projects.json`)
 		const json = await response.json()
 		return Object.keys(json).map(key => Object.assign(json[key], {key}))
 	} 
