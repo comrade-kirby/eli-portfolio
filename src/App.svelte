@@ -7,13 +7,18 @@
 	import About from './About/About.svelte'
 	import Contact from './Contact/Contact.svelte'
 	import Project from './Project/Project.svelte'
-	import { projects } from './stores.js'
+	import { projects, baseUrl } from './stores.js'
 
 	let projectKey
 	let component = Home
 
+	const setBaseUrl = async () => {
+		const url = window.location.href 
+		baseUrl.set(url.includes('localhost') ? '' : '/eli-portfolio')
+	}
+
 	const getProjects = async () => {
-		const response = await fetch('/projects.json')
+		const response = await fetch(`${$baseUrl}/projects.json`)
 		const json = await response.json()
 		return Object.keys(json).map(key => Object.assign(json[key], {key}))
 	} 
@@ -29,11 +34,12 @@
 	page.start()
 
 	onMount( async () => {
+		await setBaseUrl()
 		projects.set(await getProjects())
   })
 </script>
 
-{#if projects}
+{#if projects && $baseUrl}
 	<Header />
 	<main>
 		<svelte:component 
