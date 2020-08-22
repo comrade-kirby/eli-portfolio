@@ -12,10 +12,12 @@
 	let projectKey
 	let component = Home
 
-	const getProjects = async () => {
+	const setBaseUrl = async () => {
 		const url = window.location.href 
 		baseUrl.set(url.includes('localhost') ? '' : '/eli-portfolio')
+	}
 
+	const getProjects = async () => {
 		const response = await fetch(`${$baseUrl}/projects.json`)
 		const json = await response.json()
 		return Object.keys(json).map(key => Object.assign(json[key], {key}))
@@ -32,11 +34,12 @@
 	page.start()
 
 	onMount( async () => {
+		await setBaseUrl()
 		projects.set(await getProjects())
   })
 </script>
 
-{#if projects}
+{#if projects && $baseUrl}
 	<Header />
 	<main>
 		<svelte:component 
