@@ -39,7 +39,7 @@
   })
 </script>
 
-{#if projects && $baseUrl}
+{#if projects && $baseUrl !== null}
 	<Header />
 	<main>
 		<svelte:component 
