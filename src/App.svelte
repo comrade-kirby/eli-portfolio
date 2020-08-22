@@ -13,8 +13,8 @@
 	let component = Home
 
 	const getProjects = async () => {
-	const url = window.location.href 
-	baseUrl.set(url == 'http://localhost:5000/' ? '' : '/eli-portfolio')
+		const url = window.location.href 
+		baseUrl.set(url.includes('localhost') ? '' : '/eli-portfolio')
 
 		const response = await fetch(`${$baseUrl}/projects.json`)
 		const json = await response.json()

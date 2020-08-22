@@ -1,11 +1,13 @@
 <script>
+  import { baseUrl } from '../../../stores'
+  
   export let currentMedia
 </script>
 
 <div class='carousel-content' >
-  <img class='carousel-image' src={currentMedia.previous.url}  alt={currentMedia.previous.altText}/>
-  <img class='carousel-image' src={currentMedia.url}  alt={currentMedia.altText}/>
-  <img class='carousel-image' src={currentMedia.next.url}  alt={currentMedia.next.altText}/>
+  <img class='carousel-image' src={$baseUrl + currentMedia.previous.url}  alt={currentMedia.previous.altText}/>
+  <img class='carousel-image' src={$baseUrl + currentMedia.url}  alt={currentMedia.altText}/>
+  <img class='carousel-image' src={$baseUrl + currentMedia.next.url}  alt={currentMedia.next.altText}/>
 </div>
 
 <style>
