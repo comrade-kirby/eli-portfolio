@@ -104,6 +104,7 @@
 	:global(h1) {
 		font-weight: 700;
 		font-size: var(--large-font);
+    margin-top: calc(-1 * var(--medium-spacing));
     margin-bottom: var(--huge-spacing);
 	}
 
