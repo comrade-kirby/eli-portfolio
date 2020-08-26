@@ -1,5 +1,4 @@
 <script>
-  import { baseUrl } from '../../stores'
   export let project
   
   let hover = false
@@ -10,8 +9,8 @@
   href='/projects/{project.key}'
   on:mouseenter={ () => hover = true }
   on:mouseleave={ () => hover = false }>
-  <img class='primary' class:hover src={$baseUrl + project.homePrimary} />
-  <img class='secondary' class:hover src={$baseUrl + project.homeSecondary} />
+  <img class='primary' class:hover src={project.homePrimary} />
+  <img class='secondary' class:hover src={project.homeSecondary} />
 </a>
 
 <style>
