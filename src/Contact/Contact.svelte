@@ -4,7 +4,7 @@
 
 <section class='contact'>
   <h1>GET IN TOUCH</h1>
-  <form action="" method="POST">
+  <form action="https://formspree.io/mqkyvzdr" method="POST">
     <div class='form-input'>
       <input 
         type='text'
@@ -135,5 +135,15 @@
 
   button:hover, button:focus {
     background-color: var(--yellow);
+  }
+
+  @media screen and (max-width: 700px) {
+    .contact {
+      align-items: center;
+    }
+
+    form {
+      max-width: unset;
+    }
   }
 </style>
