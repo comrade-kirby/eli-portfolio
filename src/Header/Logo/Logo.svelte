@@ -1,9 +1,8 @@
 <script>
-  import { baseUrl } from '../../stores'
 </script>
 
 <a href='/'>
-  <img src='{$baseUrl}/newlogo3-01.png' alt='eli logo'/>
+  <img src='/newlogo3-01.png' alt='eli logo'/>
 </a>
 
 <style>
