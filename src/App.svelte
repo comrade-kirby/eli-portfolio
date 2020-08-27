@@ -25,7 +25,7 @@
 	component = Project
 	projectKey = ctx.params.project
 	})
-	page('*', '')
+	page('*', () => component = Home)
 	page.start()
 
 	onMount( async () => {
