@@ -22,8 +22,9 @@
 	page('/about', () => component = About)
 	page('/contact', () => component = Contact)
 	page('/projects/:project', (ctx) => {
-	component = Project
-	projectKey = ctx.params.project
+		component = Project
+		projectKey = ctx.params.project
+		window.scrollTo(0, 0)
 	})
 	page('*', () => component = Home)
 	page.start()
