@@ -43,7 +43,7 @@
       height: 80vw;
     }
 
-    img {
+    .carousel-image {
       min-width:  80vw;
       min-height: 80vw;
     }
