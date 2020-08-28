@@ -1,4 +1,7 @@
 <script>
+  import Image from '../../shared/Image.svelte'
+  
+  
   export let project
   
   let hover = false
@@ -9,31 +12,33 @@
   href='/projects/{project.key}'
   on:mouseenter={ () => hover = true }
   on:mouseleave={ () => hover = false }>
-  <img class='primary' class:hover src={project.homePrimary} />
-  <img class='secondary' class:hover src={project.homeSecondary} />
+  <div 
+    class='img-container primary'
+    class:hover >
+    <Image src={project.homePrimary} alt='{project.name} thumbnail' />
+  </div>
+  <div 
+    class='img-container secondary'
+    class:hover >
+    <Image src={project.homeSecondary} alt='{project.name} label' />
+  </div>
 </a>
 
 <style>
  .project {
     position: relative;
+    display: block;
     width: 100%;
-  }
-
-  .project::before {
-    content: "";
-    display: inline-block;
-    padding-bottom: 100%;
-  }
-
-  img {
-    position: absolute;
-    width:  100%;
     height: 100%;
-    object-fit: contain;
+  }
+
+  .img-container {
     transition: opacity 0.2s ease-out;
   }
 
   .secondary {
+    position: absolute;
+    top: 0;
     z-index: 0;
     opacity: 0;
   }

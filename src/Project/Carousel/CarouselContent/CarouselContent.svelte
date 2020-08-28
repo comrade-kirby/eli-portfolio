@@ -1,11 +1,25 @@
 <script>
+  import Image from '../../../shared/Image.svelte'
   export let currentMedia
 </script>
 
 <div class='carousel-content' >
-  <img class='carousel-image' src={currentMedia.previous.url}  alt={currentMedia.previous.altText}/>
-  <img class='carousel-image' src={currentMedia.url}  alt={currentMedia.altText}/>
-  <img class='carousel-image' src={currentMedia.next.url}  alt={currentMedia.next.altText}/>
+  <div class='carousel-image'>
+    <Image 
+      src={currentMedia.previous.url} 
+      alt={currentMedia.previous.altText} />
+  </div>
+  <div class='carousel-image'>
+    <Image 
+      src={currentMedia.url} 
+      alt={currentMedia.altText}/>
+  </div>
+  <div class='carousel-image'>
+    <Image
+      src={currentMedia.next.url} 
+      alt={currentMedia.next.altText}/>
+  </div>
+  
 </div>
 
 <style>
@@ -18,10 +32,9 @@
     overflow: hidden;
   }
 
-  img {
+  .carousel-image {
     min-width:  75vh;
     min-height: 75vh;
-    object-fit: contain;
   }
 
   @media screen and (max-width: 1000px) {
