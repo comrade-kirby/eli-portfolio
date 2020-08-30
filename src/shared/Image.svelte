@@ -1,5 +1,6 @@
 <script>
   import { onMount } from 'svelte'
+
   import LoadingSpinner from './LoadingSpinner.svelte'
 
   export let src
@@ -52,5 +53,16 @@
 
   .display {
     display: unset;
+    animation: fade 0.4s;
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
   }
 </style>
