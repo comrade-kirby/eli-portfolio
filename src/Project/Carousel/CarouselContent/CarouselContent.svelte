@@ -19,7 +19,6 @@
       src={currentMedia.next.url} 
       alt={currentMedia.next.altText}/>
   </div>
-  
 </div>
 
 <style>
