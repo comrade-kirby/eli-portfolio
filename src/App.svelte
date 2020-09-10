@@ -13,7 +13,7 @@
 	let component = Home
 
 	const getProjects = async () => {
-		const response = await fetch('/projects.json')
+		const response = await fetch(`/projects.json`)
 		const json = await response.json()
 		return Object.keys(json).map(key => Object.assign(json[key], {key}))
 	} 
@@ -25,7 +25,7 @@
 	component = Project
 	projectKey = ctx.params.project
 	})
-	page('*', '')
+	page('*', () => component = Home)
 	page.start()
 
 	onMount( async () => {
@@ -98,11 +98,12 @@
 	:global(h1) {
 		font-weight: 700;
 		font-size: var(--large-font);
+    margin-top: calc(-1 * var(--medium-spacing));
     margin-bottom: var(--huge-spacing);
 	}
 
 	:global(p) {
-		font-size: var(--medium-font);
+		font-size: var(--small-font);
 		line-height: var(--large-spacing);
 		margin-bottom: var(--large-spacing);
 		text-align: justify;
@@ -121,13 +122,9 @@
 		}
 	}
 
-	@media screen and (max-width: 600px) {
+	@media screen and (max-width: 700px) {
 		:global(h1) {
 			font-size: var(--medium-font);
-		}
-
-		:global(p) {
-			font-size: var(--small-font);
 		}
 
     main {

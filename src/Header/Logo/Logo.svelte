@@ -1,3 +1,6 @@
+<script>
+</script>
+
 <a href='/'>
   <img src='/newlogo3-01.png' alt='eli logo'/>
 </a>
@@ -14,7 +17,7 @@
     margin-top: -10px;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
     img {
       max-width: 80px;
     }

@@ -25,18 +25,18 @@ In terminal:
 
 Go to `http://localhost:5000/` to view the project in a web browser
 
-## To Edit
+## To Edit Projects
 
-#### Run project locally (same as above)
+### Run project locally (same as above)
 
-#### Opening the project
+### Opening the project
 In a new terminal window if your server is already running:
 1. `$ cd ~/Desktop/websitematerial/eli-portfolio` to move into the project folder
 2. `$ code .` to open the project in VSCode 
 
 > or open from VSCode
 
-#### Adding files to the `/public/project_content` folder
+### Adding files to the `/public/project_content` folder
 There is a folder for each project in the `/project_content` folder. To add a files for a new project, add a new folder.
 Each folder should include a folder `/home` and `/project`
 - `/home`: splash image and sticker for home page
@@ -48,7 +48,7 @@ Project folders and files should be named with underscores (`_`) instead of spac
 
 > right click the file and select rename
 
-#### Editing `projects.json`
+### Editing `projects.json`
 all projects should have the following format:
 ```
 "2020_calendar": {
@@ -79,7 +79,8 @@ all projects should have the following format:
 
 > any quotes in text should be escaped with a backslash (`\`) before each quote
 
-#### Pushing changes to github
+
+### Pushing changes to github
 1. confirm you are in the branch `eli` (branch name is displayed at the bottom left corner of VSCode)
 2. `view > SCM` open the "Source Control" pane in VSCode 
 3. review the files listed under "Changes" in the left pane
@@ -88,8 +89,25 @@ all projects should have the following format:
 6. Press `command` + `Enter` to commit changes
 7. Select "push" from the `...` dropdown at the top of the pane to push changes to github.
 
+## To Edit Portfolio
 
-#### Troubleshooting
+### Run project locally (same as above)
+
+### Selecting an image
+1. Choose an image and drag it into the `/public` folder
+2. Open `/src/About/About.svelte`
+3. Replace the file name in `<img src='eli.jpeg' alt='Eli Coretti' />` to match the file added to the public folder.
+
+### Editing copy
+1. Open `/src/About/About.svelte`
+2. You can edit the existing paragraphs and also add new ones.
+> Paragraphs are wrapped in `p` tags: 
+>
+> `<p>this is paragraph text ...</p>`
+>
+> note the "closing" tag has a `/` after the first bracket
+
+## Troubleshooting
 - clear browser cache and hard reload
 - in chrome try `option` + `cmd` + `i` to pull up the console and look for errors
 - quit and restart the server: `cmd` + `c` and then `npm run dev`

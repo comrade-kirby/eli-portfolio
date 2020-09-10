@@ -102,7 +102,7 @@
     width: 100%;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
     .carousel {
       justify-content: space-around;
     }

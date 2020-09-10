@@ -6,7 +6,7 @@
 
   let project
 
-  $: project = $projects.find( project => project.key == projectKey)
+  $: project = $projects.find(project => project.key == projectKey)
 </script>
 
 {#if project}
@@ -29,10 +29,6 @@
     align-items:     flex-end;
     padding: var(--medium-spacing);
   }
-
-  .project-name {
-    margin-top: calc(-1 * var(--medium-spacing));
-  }  
 
   .project-description {
     max-width: 1000px;

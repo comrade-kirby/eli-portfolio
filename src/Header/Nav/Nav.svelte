@@ -28,7 +28,7 @@
     z-index: 1;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
     .nav-button {
       font-size: var(--tiny-font);
       padding: var(--tiny-spacing);
