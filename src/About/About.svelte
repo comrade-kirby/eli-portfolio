@@ -1,8 +1,7 @@
 <section class='about'>
   <h1 class='name'>ELI CORETTI</h1>
   <img src='eli.jpeg' alt='Eli Coretti' />
-  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero ipsam explicabo dolorum earum error dolorem, minus quo aliquam maiores ducimus, possimus nulla repudiandae quisquam perferendis ipsum modi? Fugit, sequi accusantium?</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat doloribus soluta magni quod. Sequi maiores sunt velit sapiente cupiditate reiciendis? Odio dolores tenetur magni odit esse, labore veritatis iusto tempore.</p>
+  <p>Hi! Thanks for checking this site out. My name is Eli and I am a graphic designer and illustrator born and working in Chicago, IL. I love to bring fun, colorul ideas to the table, but if you've already got something in mind I'd love to run with it.</p>
 </section>
 
 <style>
