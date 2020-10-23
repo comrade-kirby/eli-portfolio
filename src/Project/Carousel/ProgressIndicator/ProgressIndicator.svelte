@@ -3,7 +3,7 @@
   export let currentIndex
   export let jumpTo
 
-  const dots = [...Array(mediaeCount).keys()]
+  $: dots = [...Array(mediaeCount).keys()]
 </script>
 
 <div class='progress-indicator'>
