@@ -24,7 +24,7 @@
   },
   "slumber_mag": {
     "name": "SLUMBER MAG",
-    "homePrimary": "/project_content/slumber_mag/home/slumbermag-01.png",
+    "homePrimary": "/project_content/slumber_mag/home/slumbermag_03.png",
     "homeSecondary": "/project_content/slumber_mag/home/slumbermagsticker.png",
     "projectCopy": [],
     "projectMediae": [
@@ -65,9 +65,6 @@
       },
       {"url": "/project_content/thalia_hall/project/ShortSleeveThalia.png",
         "altText": "Short Sleeve tee"
-      },
-      {"url": "/project_content/thalia_hall/project/TH_MUG.png",
-        "altText": "Thalia Hall Holiday Mug"
       }
     ]
   },
@@ -144,40 +141,44 @@
     ],
     "projectMediae": [
       { 
+        "url": "/public/project_content/16_on_center/project/pfp.png",
+        "altText": "Pizza Friendly Pizza t-shirt"
+      },
+      { 
         "url": "/project_content/16_on_center/project/IG_SLA-We're-Hiring.gif",
-        "altText": "insert some text here"
+        "altText": "Saint Lou's Assembly We're Hiring"
       },
       { 
         "url": "/project_content/16_on_center/project/IGS_Bite-Weekly-Specials.gif",
-        "altText": "insert some text here"
+        "altText": "Bite Cafe Weekly Special Instagram Story"
       },
       { 
-        "url": "/project_content/16_on_center/project/Punch House Identity_FB.jpg",
-        "altText": "insert some text here"
+        "url": "/project_content/16_on_center/project/Punch House Identity Social.jpg",
+        "altText": "Punch House Facebook Cover Photos"
       },
       { 
         "url": "/project_content/16_on_center/project/punch_house_identity_social.jpg",
-        "altText": "insert some text here"
+        "altText": "Punch House Poster"
       },
       { 
         "url": "/project_content/16_on_center/project/Punch-House-Identity-Social-IG.gif",
-        "altText": "insert some text here"
+        "altText": "Punch House Instagram"
       },
       { 
-        "url": "/public/project_content/16_on_center/project/Postcard_SLA.png",
+        "url": "/project_content/16_on_center/project/Postcard_SLA.png",
         "altText": "insert some text here"
       },
       { 
         "url": "/project_content/16_on_center/project/IG_RuinDaily.png",
-        "altText": "insert some text here"
+        "altText": "Ruin Daily Instagram"
       },
       { 
         "url": "/project_content/16_on_center/project/R+D-CLubZenreachHeader.gif",
-        "altText": "insert some text here"
+        "altText": "Ruin Daily Email Header"
       },
       { 
         "url": "/project_content/16_on_center/project/were_hiring.gif",
-        "altText": "insert some text here"
+        "altText": "16 on Center We're Hiring"
       }
     ]
   },
@@ -203,6 +204,56 @@
       },
       {"url": "/project_content/hope_all_is_well_presents/project/haiw_varsity.gif",
         "altText": "Instagram flyer animation for Varsity"
+      }
+    ]
+  },
+  "misc": {
+    "name": "MISCELLANEOUS",
+    "homePrimary": "/project_content/misc/home/eeeeeeemisc.png",
+    "homeSecondary": "/project_content/misc/home/misc.png",
+    "projectCopy": [],
+    "projectMediae": [
+      {"url": "/project_content/misc/project/9913d0bb-5560-4215-b9df-66782335d8ab_rw_1920.jpg",
+        "altText": "Single cover for Windowsill by Full Walrus"
+      },
+        {"url": "/project_content/misc/project/Ducks-01.jpg",
+          "altText": "Digital illustration of ducks and fruit"
+      },
+        {"url": "/project_content/misc/project/e7393df1-7f07-4c5f-a44d-aa318ffc8748_rw_1920.jpg",
+        "altText": "No Worries drawing"
+      },
+      {"url": "/project_content/misc/project/HEAD-04.png",
+        "altText": "Digital illustration of Aphrodite and fruit"
+      },
+      {"url": "/project_content/misc/project/HEELTOTOE.png",
+        "altText": "Heel to toe illustration featuring a blown up tv and a pair of boots"
+      },
+      {"url": "/project_content/misc/project/IMG_7718.jpg",
+        "altText": "Chicken drawing screenprinted and hand embellished - INHALE|EXHALE"
+      },
+      {"url": "/project_content/misc/project/IMG_8153.JPG",
+        "altText": "Rabbit drawing screenprinted and hand embellished - HEAR"
+      },
+      {"url": "/project_content/misc/project/IMG_8932.JPG",
+        "altText": "Dog drawing - Good Times 7"
+      },
+      {"url": "/project_content/misc/project/IMG_9280 2.JPG",
+        "altText": "Wiggly Piggly promotional material"
+      },
+      {"url": "/project_content/misc/project/IMG_9399.JPG",
+        "altText": "Cold Beaches US Tour promotional material"
+      },
+      {"url": "/project_content/misc/project/IMG_9964.jpg",
+        "altText": "Cigarettes Make the Sun Come Up painting"
+      },
+      {"url": "/project_content/misc/project/misc_color.jpg",
+        "altText": "miscellaneous in color"
+      },
+      {"url": "/project_content/misc/project/PARADISE.png",
+        "altText": "Paradise illustration featuring flowers and a pair of dice"
+      },
+      {"url": "/project_content/misc/project/Strawberrys.jpg",
+        "altText": "Strawberries on sale"
       }
     ]
   },
