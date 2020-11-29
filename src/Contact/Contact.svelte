@@ -34,6 +34,7 @@
         required
         bind:value={message}
         class:filled={message}
+        class:large={message && message.length > 250}
         placeholder='MESSAGE' />
       <label for='message'>MESSAGE</label>
     </div>
@@ -112,7 +113,7 @@
     padding: 0;
   }
 
-  textarea:focus {
+  textarea.large {
     height: 300px;
   }
 

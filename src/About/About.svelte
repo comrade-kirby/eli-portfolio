@@ -1,7 +1,7 @@
 <section class='about'>
   <h1 class='name'>ELI CORETTI</h1>
   <img src='eli.jpeg' alt='Eli Coretti' />
-  <p>Hi! Thanks for checking this site out. My name is Eli and I am a graphic designer and illustrator born and working in Chicago, IL. I love to bring fun, colorul ideas to the table, but if you've already got something in mind I'd love to run with it.</p>
+  <p>Hi! Thanks for checking this site out. My name is Eli and I am a graphic designer and illustrator born and working in Chicago, IL. I love to bring fun, colorful ideas to the table, but if you've already got something in mind I'd love to run with it.</p>
 </section>
 
 <style>
