@@ -26,7 +26,9 @@
     "name": "SLUMBER MAG",
     "homePrimary": "/project_content/slumber_mag/home/slumbermag_03.png",
     "homeSecondary": "/project_content/slumber_mag/home/slumbermagsticker.png",
-    "projectCopy": [],
+    "projectCopy": [
+      "Slumber Mag is an online publication/community focused on non-binary, trans, and female-identifying musicians. I was brought on to create three animations for their Instagram page to countdown to the relaunch of their website. The illustrations and animations were based on creating a larger composition of small moments that capture the passing of time."
+    ],
     "projectMediae": [
       { 
         "url": "/project_content/slumber_mag/project/slumbermag_twoweeks.gif",
@@ -95,19 +97,44 @@
     "name": "ZOK PRODUCTIONS",
     "homePrimary": "/project_content/zok_productions/home/zok_productions_splash-01.png",
     "homeSecondary": "/project_content/zok_productions/home/zok_sticker.png",
-    "projectCopy": [],
+    "projectCopy": [
+      "ZOK Productions is video production company based in Chicago, IL. Zok's documentary work focuses primarily on social justice in Chicago and the surrounding area. The logo for this work looked to the educational videos from PBS and the video intros of news stations of the past."
+    ],
     "projectMediae": [
       { 
         "url": "/project_content/zok_productions/project/ZOK_TV.gif",
         "altText": "ZOK video productions intro"
       },
       { 
-        "url": "/project_content/zok_productions/project/FINALS_LOGO_LOCKUP.png",
+        "url": "/project_content/zok_productions/project/zokprod_cap.png",
         "altText": "Zok production lock-up"
       },
       { 
-        "url": "/project_content/zok_productions/project/FINALS_CAMERA_ALTERNATIVE.png",
-        "altText": "Zok production alternative logo"
+        "url": "/project_content/zok_productions/project/FINALS_LOGO_LOCKUP.png",
+        "altText": "Zok production lock-up"
+      }
+    ]
+  },
+  "psyche": {
+    "name": "PSYCHE DESIGN LAB",
+    "homePrimary": "/project_content/psyche/home/psyche_logo-01.png",
+    "homeSecondary": "/project_content/psyche/home/psyche.png",
+    "projectCopy": [
+      "Psyche Design Lab is a project created by Chris Stone that combines sustainability, outdoor gear, and vintage goods. Utilizing materials, from vintage Columbia jackets to Adidas tracksuits to old military-issued duffel bags, Psyche turns thrift finds into one-of-a-kind bags and accessories.",
+      "With a focus on vintage goods, and specifically the track jackets of the 80s, I looked to create a brand that burst with bright colors and a retro type to match the materials that Chris uses."
+    ],
+    "projectMediae": [
+      {"url": "/project_content/psyche/project/PSYCHE COLOR.png",
+        "altText": "Psyche Logo"
+      },
+      {"url": "/project_content/psyche/project/igposts_PSYCHE.png",
+        "altText": "Psyche Instagram Template"
+      },
+      {"url": "/project_content/psyche/project/IGS_psyche.png",
+        "altText": "Psyche Instagram Story Template"
+      },
+      {"url": "/project_content/psyche/project/psycheteev2.png",
+        "altText": "Psyche T-Shirt"
       }
     ]
   },
@@ -257,14 +284,23 @@
       }
     ]
   },
-  "pbr_jim_beam": {
-    "name": "PBR & JIM BEAM",
-    "homePrimary": "/project_content/pbr_jim_beam/home/PBR-01.png",
-    "homeSecondary": "/project_content/pbr_jim_beam/home/pbrjb.png",
+  "j_bengoy": {
+    "name": "J BENGOY",
+    "homePrimary": "/project_content/j_bengoy/home/j_bengoy-01.png",
+    "homeSecondary": "/project_content/j_bengoy/home/j_b_stick.png",
     "projectCopy": [],
     "projectMediae": [
-      {"url": "/project_content/psyche/COMING_SOON-01.png",
-        "altText": "Coming Soon"
+      {"url": "/project_content/j_bengoy/project/DogwoodWinterAlbum.jpg",
+        "altText": "Dogwood Winter album cover"
+      },
+      {"url": "/project_content/j_bengoy/project/JBengoyTShirt.png",
+        "altText": "J Bengoy t-shirt with illustration"
+      },
+      {"url": "/project_content/j_bengoy/project/SoGoodICouldDiesingle.jpg",
+        "altText": "So Good (I Could I Die) single cover on Spotify"
+      },
+      {"url": "/project_content/j_bengoy/project/Reprisesingle.jpg",
+        "altText": "Reprise (Marthasville) single cover on Spotify"
       }
     ]
   },
@@ -371,14 +407,11 @@
       }
     ]
   },
-  "psyche": {
-    "name": "PSYCHE DESIGN LAB",
-    "homePrimary": "/project_content/psyche/home/psyche_logo-01.png",
-    "homeSecondary": "/project_content/psyche/home/psyche.png",
-    "projectCopy": [
-      "Psyche Design Lab is a project created by Chris Stone that combines sustainability, outdoor gear, and vintage goods. Utilizing materials, from vintage Columbia jackets to Adidas tracksuits to old military-issued duffel bags, Psyche turns thrift finds into one-of-a-kind bags and accessories.",
-      "With a focus on vintage goods, and specifically the track jackets of the 80s, I looked to create a logo with bright colors and a retro type."
-    ],
+  "pbr_jim_beam": {
+    "name": "PBR & JIM BEAM",
+    "homePrimary": "/project_content/pbr_jim_beam/home/PBR-01.png",
+    "homeSecondary": "/project_content/pbr_jim_beam/home/pbrjb.png",
+    "projectCopy": [],
     "projectMediae": [
       {"url": "/project_content/psyche/COMING_SOON-01.png",
         "altText": "Coming Soon"
@@ -393,26 +426,6 @@
     "projectMediae": [
       {"url": "/project_content/psyche/COMING_SOON-01.png",
         "altText": "Coming Soon"
-      }
-    ]
-  },
-  "j_bengoy": {
-    "name": "J BENGOY",
-    "homePrimary": "/project_content/j_bengoy/home/j_bengoy-01.png",
-    "homeSecondary": "/project_content/j_bengoy/home/j_b_stick.png",
-    "projectCopy": [],
-    "projectMediae": [
-      {"url": "/project_content/j_bengoy/project/DogwoodWinterAlbum.jpg",
-        "altText": "Dogwood Winter album cover"
-      },
-      {"url": "/project_content/j_bengoy/project/JBengoyTShirt.png",
-        "altText": "J Bengoy t-shirt with illustration"
-      },
-      {"url": "/project_content/j_bengoy/project/SoGoodICouldDiesingle.jpg",
-        "altText": "So Good (I Could I Die) single cover on Spotify"
-      },
-      {"url": "/project_content/j_bengoy/project/Reprisesingle.jpg",
-        "altText": "Reprise (Marthasville) single cover on Spotify"
       }
     ]
   }
